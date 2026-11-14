@@ -1,32 +1,38 @@
 (version 1)
 
-# U3 (OPA3355EA, TSSOP-14, 0.65 mm pitch): only 0.25 mm between neighbouring pads, less than the 0.3 mm clearance
-# of the GND and Alim_1mm net classes (+5V_MEGA on pins 1-4, GND on pin 11).
+# U3 (OPA3355EA, TSSOP-14, 0.65 mm pitch): 0.25 mm between two neighbouring pads, less than the 0.3 mm clearance
+# of the GND and Alim_1mm classes (+5V_MEGA on pins 1-4, GND on pin 11).
 (rule "U3: 0.2 mm clearance inside the courtyard"
   (condition "A.intersectsCourtyard('U3')")
   (constraint clearance (min 0.2mm)))
 
-# Tracks inside the U3 courtyard: 0.25 mm (pads are 0.4 mm wide), whatever the net class.
+# Tracks inside the U3 courtyard: 0.25 mm (the pads are 0.4 mm wide), whatever the net class.
 (rule "U3: 0.25 mm tracks inside the courtyard"
   (condition "A.Type == 'Track' && A.intersectsCourtyard('U3')")
   (constraint track_width (min 0.2mm) (opt 0.25mm) (max 0.4mm)))
 
-# V3: the board minimum is 0.2 mm clearance and 0.2 mm track (Board Setup); no rule goes below it.
-# U4 CS5213 (QFN-32 4 x 4, 0.4 mm pitch, 0.2 mm pads): 0.2 mm between pads, so tracks are exactly 0.2 mm.
-(rule "U4: 0.2 mm clearance inside the courtyard"
-  (condition "A.intersectsCourtyard('U4')")
+# A rule can NEVER go below the board minimum (Board Setup). The board's "minimum track width" is 0.15 mm so the
+# QFN of U9 can be escaped with 0.15 mm tracks. The rest of the board is brought back to 0.20 mm by the guard rule
+# below: lowering the board minimum must not silently allow 0.15 mm everywhere.
+# The HDMI block (net classes Puce_HDMI and Alim_puce) is routed with 0.15 mm tracks outside the U9 courtyard too,
+# so the guard does not apply to those two classes. The fabricator quotes 0.10 mm minimum on 2-layer 1 oz boards.
+(rule "Tracks: 0.20 mm minimum outside the HDMI block and outside the U9 courtyard"
+  (condition "A.Type == 'Track' && !A.intersectsCourtyard('U9') && A.NetClass != 'Puce_HDMI' && A.NetClass != 'Alim_puce'")
+  (constraint track_width (min 0.2mm)))
+# U9 MS9292 (QFN-48 6 x 6, 0.40 mm pitch, 0.85 x 0.20 mm pads): 0.20 mm between two neighbouring pads, so tracks of
+# exactly 0.20 mm inside the courtyard.
+# No track can pass BETWEEN two pads: it would take 0.2 + 0.2 + 0.2 = 0.6 mm for a 0.4 mm pitch. The 48 pins are on a
+# single row: each one leaves radially, away from the package.
+# The rule only targets tracks (A.Type == 'Track'): the ground zone under the exposed pad is not concerned, and the
+# 16 thermal vias keep the net-class size.
+(rule "U9: 0.2 mm clearance inside the courtyard"
+  (condition "A.intersectsCourtyard('U9')")
   (constraint clearance (min 0.2mm)))
-(rule "U4: 0.2 mm tracks inside the courtyard"
-  (condition "A.Type == 'Track' && A.intersectsCourtyard('U4')")
-  (constraint track_width (min 0.2mm) (opt 0.2mm) (max 0.2mm)))
-
-# U5 NX3303X (QFN-32 5 x 5, 0.5 mm pitch, 0.25 mm pads): 0.25 mm between pads.
-(rule "U5: 0.2 mm clearance inside the courtyard"
-  (condition "A.intersectsCourtyard('U5')")
-  (constraint clearance (min 0.2mm)))
-(rule "U5: 0.2-0.3 mm tracks inside the courtyard"
-  (condition "A.Type == 'Track' && A.intersectsCourtyard('U5')")
-  (constraint track_width (min 0.2mm) (opt 0.2mm) (max 0.3mm)))
+# min 0.15: allowed so a track can squeeze through; opt 0.20: KiCad's default; max 0.20: the pads are only 0.20 mm
+# wide, a wider track would overhang.
+(rule "U9: 0.15 to 0.2 mm tracks inside the courtyard"
+  (condition "A.Type == 'Track' && A.intersectsCourtyard('U9')")
+  (constraint track_width (min 0.15mm) (opt 0.2mm) (max 0.2mm)))
 
 # U7 TS5V330 (TSSOP-16, 0.65 mm pitch, like U3).
 (rule "U7: 0.2 mm clearance inside the courtyard"
@@ -35,6 +41,10 @@
 (rule "U7: 0.25 mm tracks inside the courtyard"
   (condition "A.Type == 'Track' && A.intersectsCourtyard('U7')")
   (constraint track_width (min 0.2mm) (opt 0.25mm) (max 0.4mm)))
+# The HDMI block tracks may stay at 0.15 mm inside the U7 courtyard (HD_R/G/B arrive that way).
+(rule "U7: HDMI block tracks from 0.15 mm inside the courtyard"
+  (condition "A.Type == 'Track' && A.intersectsCourtyard('U7') && (A.NetClass == 'Puce_HDMI' || A.NetClass == 'Alim_puce')")
+  (constraint track_width (min 0.15mm) (opt 0.25mm) (max 0.4mm)))
 
 # J15 HDMI (0.5 mm pitch, 0.3 mm pads): 0.2 mm between pads, less than Default (0.25) and GND (0.3).
 (rule "J15: 0.2 mm clearance inside the courtyard"
@@ -43,3 +53,21 @@
 (rule "J15: 0.2-0.3 mm tracks inside the courtyard"
   (condition "A.Type == 'Track' && A.intersectsCourtyard('J15')")
   (constraint track_width (min 0.2mm) (opt 0.2mm) (max 0.3mm)))
+# Same for J15, whose signals are routed with 0.15 mm tracks.
+(rule "J15: HDMI block tracks from 0.15 mm inside the courtyard"
+  (condition "A.Type == 'Track' && A.intersectsCourtyard('J15') && (A.NetClass == 'Puce_HDMI' || A.NetClass == 'Alim_puce')")
+  (constraint track_width (min 0.15mm) (opt 0.2mm) (max 0.3mm)))
+
+# Fine vias for the HDMI block (net classes Puce_HDMI and Alim_puce, which include /+1V2 and /+3V3). The board
+# minimums are lowered to via 0.45 / drill 0.2 / annular ring 0.125 to allow 0.55/0.25, 0.5/0.25 and 0.45/0.2 there.
+# As for the track width above, guard rules bring every OTHER net (and pads without a net) back to the former
+# minimums: lowering the board minimum must not silently allow fine vias everywhere.
+(rule "Vias: 0.6 mm minimum outside the HDMI block"
+  (condition "A.Type == 'Via' && A.NetClass != 'Puce_HDMI' && A.NetClass != 'Alim_puce'")
+  (constraint via_diameter (min 0.6mm)))
+(rule "Holes: 0.3 mm minimum outside the HDMI block"
+  (condition "A.NetClass != 'Puce_HDMI' && A.NetClass != 'Alim_puce'")
+  (constraint hole_size (min 0.3mm)))
+(rule "Vias: 0.15 mm annular ring minimum outside the HDMI block"
+  (condition "A.Type == 'Via' && A.NetClass != 'Puce_HDMI' && A.NetClass != 'Alim_puce'")
+  (constraint annular_width (min 0.15mm)))

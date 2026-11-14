@@ -9326,6 +9326,1562 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AUDIO_CONN_1x3"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AUDIO_CONN_1x3"
+				(at 0 -12.70 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AUDIO_CONN_1x3_0_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AUDIO_CONN_1x3_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AUDIO_CONN_1x4"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AUDIO_CONN_1x4"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AUDIO_CONN_1x4_0_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -12.70)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AUDIO_CONN_1x4_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VIDEO_MS9292"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VIDEO_MS9292"
+				(at 0 -129.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VIDEO_MS9292_0_1"
+				(rectangle
+					(start 0 0)
+					(end 25.4 -127.00)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VIDEO_MS9292_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "HDRXCN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "HDRXCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "AVDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "HDRX0N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.70 0)
+					(length 5.08)
+					(name "HDRX0P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "HDRX1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "HDRX1P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -22.86 0)
+					(length 5.08)
+					(name "AVDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -25.40 0)
+					(length 5.08)
+					(name "HDRX2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -27.94 0)
+					(length 5.08)
+					(name "HDRX2P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -30.48 0)
+					(length 5.08)
+					(name "MCUSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -35.56 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -38.10 0)
+					(length 5.08)
+					(name "RSTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -40.64 0)
+					(length 5.08)
+					(name "DVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -43.18 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -45.72 0)
+					(length 5.08)
+					(name "AROUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -48.26 0)
+					(length 5.08)
+					(name "VREFL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -50.80 0)
+					(length 5.08)
+					(name "VREFH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -53.34 0)
+					(length 5.08)
+					(name "ALOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -55.88 0)
+					(length 5.08)
+					(name "SPDIFOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -58.42 0)
+					(length 5.08)
+					(name "HSOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -60.96 0)
+					(length 5.08)
+					(name "VSOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -63.50 0)
+					(length 5.08)
+					(name "VMID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -66.04 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -68.58 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -71.12 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -73.66 0)
+					(length 5.08)
+					(name "DACREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -76.20 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -78.74 0)
+					(length 5.08)
+					(name "BOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -81.28 0)
+					(length 5.08)
+					(name "GOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -83.82 0)
+					(length 5.08)
+					(name "ROUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -86.36 0)
+					(length 5.08)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -88.90 0)
+					(length 5.08)
+					(name "VGADDCSDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -91.44 0)
+					(length 5.08)
+					(name "VGADDCSCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -93.98 0)
+					(length 5.08)
+					(name "DVDD12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -96.52 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -99.06 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -101.60 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -104.14 0)
+					(length 5.08)
+					(name "V12OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -106.68 0)
+					(length 5.08)
+					(name "V33IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -109.22 0)
+					(length 5.08)
+					(name "HDRXHPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -111.76 0)
+					(length 5.08)
+					(name "HDRXDET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -114.30 0)
+					(length 5.08)
+					(name "RXDDCSDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -116.84 0)
+					(length 5.08)
+					(name "RXDDCSCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -119.38 0)
+					(length 5.08)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -121.92 0)
+					(length 5.08)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -124.46 0)
+					(length 5.08)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VIDEO_LDO_3V3"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VIDEO_LDO_3V3"
+				(at 0 -12.70 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VIDEO_LDO_3V3_0_1"
+				(rectangle
+					(start 0 0)
+					(end 25.4 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VIDEO_LDO_3V3_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Boutons de la carte (2026-10-09) : SW1 = TEST, SW2 = SERVICE (comme SW6 et SW7 de la carte E/S d'origine), vers la masse ;\nanti-rebond par le conditionneur de l'entrée (4,7 kΩ / 100 nF / 1 kΩ)."
 		(exclude_from_sim no)
@@ -9419,10 +10975,6 @@
 		(uuid "0b267ecd-67e4-4a33-84f6-1ef2c56e98c3")
 	)
 	(no_connect
-		(at 822.96 497.84)
-		(uuid "0f032de2-2fdb-42b9-9e42-1079ce3f8dcc")
-	)
-	(no_connect
 		(at 45.72 528.32)
 		(uuid "0f88fede-4b7a-4a35-8085-80eeed5fb25d")
 	)
@@ -9437,10 +10989,6 @@
 	(no_connect
 		(at 88.9 182.88)
 		(uuid "1afb30a0-5180-4503-aa07-409e318d32fe")
-	)
-	(no_connect
-		(at 764.54 510.54)
-		(uuid "1d373607-4052-4146-be28-f16323e06c4b")
 	)
 	(no_connect
 		(at 86.36 789.94)
@@ -9459,10 +11007,6 @@
 		(uuid "22c50301-b5b8-4288-abce-1eab232b36de")
 	)
 	(no_connect
-		(at 822.96 505.46)
-		(uuid "2381d0eb-03b8-457f-a007-6c53b7497b96")
-	)
-	(no_connect
 		(at 88.9 63.5)
 		(uuid "265a8fc7-6e7e-44bb-93d7-f29ac27f6f09")
 	)
@@ -9477,14 +11021,6 @@
 	(no_connect
 		(at 208.28 680.72)
 		(uuid "2d9c511d-0ea4-46cf-b3f2-a6b0ba1ca201")
-	)
-	(no_connect
-		(at 764.54 505.46)
-		(uuid "305fcf6f-a57d-40b8-b67e-62f55f88d6cc")
-	)
-	(no_connect
-		(at 764.54 464.82)
-		(uuid "32e7b7e3-0de5-43b2-b586-127b27e4ab68")
 	)
 	(no_connect
 		(at 20.32 149.86)
@@ -9504,10 +11040,6 @@
 		(uuid "361e9e4a-73a9-4ffe-94e2-d207c8bee990")
 	)
 	(no_connect
-		(at 822.96 508)
-		(uuid "37a8e422-fad1-40d5-b7d0-3867f1b1b840")
-	)
-	(no_connect
 		(at 1115.06 543.56)
 		(uuid "3bf3768e-53bb-4957-9f38-7f4b0df9288b")
 	)
@@ -9524,10 +11056,6 @@
 		(uuid "3f0dc123-4aca-4d09-aa6b-0b48b6b7cacc")
 	)
 	(no_connect
-		(at 822.96 472.44)
-		(uuid "3f12e005-88e8-41f5-ae8a-3b5d96795e28")
-	)
-	(no_connect
 		(at 88.9 73.66)
 		(uuid "442df72a-da65-450a-ba19-e7ca73ce30fb")
 	)
@@ -9540,20 +11068,12 @@
 		(uuid "483194b1-a2d5-4716-81ec-af2ffc630cd1")
 	)
 	(no_connect
-		(at 764.54 500.38)
-		(uuid "4b147199-962c-44c9-bf7d-2fb1ed3dccc7")
-	)
-	(no_connect
 		(at 88.9 60.96)
 		(uuid "4ffaacf1-9a80-477d-847b-8a30e124893c")
 	)
 	(no_connect
 		(at 1056.64 543.56)
 		(uuid "5180195c-0022-4ced-a181-7d0971856812")
-	)
-	(no_connect
-		(at 822.96 502.92)
-		(uuid "54b79d7d-387b-4f88-a8e0-d9905acc433b")
 	)
 	(no_connect
 		(at 20.32 71.12)
@@ -9578,10 +11098,6 @@
 	(no_connect
 		(at 88.9 58.42)
 		(uuid "63b22e6c-ae13-49c9-90c8-df4fe0b44e91")
-	)
-	(no_connect
-		(at 764.54 467.36)
-		(uuid "650ed317-f326-4c12-90f6-5835fd665b1b")
 	)
 	(no_connect
 		(at 20.32 96.52)
@@ -9668,10 +11184,6 @@
 		(uuid "872bd5a6-a68f-42fc-837c-7f882a65d702")
 	)
 	(no_connect
-		(at 764.54 508)
-		(uuid "89fe61e6-45c8-4f62-b278-98bd0aff3953")
-	)
-	(no_connect
 		(at 86.36 792.48)
 		(uuid "8e7d8b23-d318-48e9-afa5-b0efba2d64af")
 	)
@@ -9686,10 +11198,6 @@
 	(no_connect
 		(at 88.9 236.22)
 		(uuid "9107bd63-6531-47f3-badc-b69c79631c45")
-	)
-	(no_connect
-		(at 764.54 502.92)
-		(uuid "9278f50e-28d2-489d-8eb9-be1182d239db")
 	)
 	(no_connect
 		(at 88.9 81.28)
@@ -9719,10 +11227,6 @@
 	(no_connect
 		(at 88.9 241.3)
 		(uuid "a4d924fe-02e9-4f28-8d25-26e0e4eabd7e")
-	)
-	(no_connect
-		(at 822.96 495.3)
-		(uuid "a6f222b5-9ad8-4801-9585-1975b09af11c")
 	)
 	(no_connect
 		(at 20.32 127)
@@ -9797,10 +11301,6 @@
 		(uuid "d2841151-dbb3-4d72-bfbd-814bd539529f")
 	)
 	(no_connect
-		(at 764.54 497.84)
-		(uuid "d5522022-0699-482b-9afc-31aff0dc4892")
-	)
-	(no_connect
 		(at 88.9 254)
 		(uuid "d80d2119-eee7-441b-a429-d05c5f8ce28a")
 	)
@@ -9815,10 +11315,6 @@
 	(no_connect
 		(at 45.72 533.4)
 		(uuid "df7f675d-b59e-42b0-b29d-0f8c1766dc8b")
-	)
-	(no_connect
-		(at 764.54 495.3)
-		(uuid "e064976d-9e88-4229-aeaa-5945e6d653d5")
 	)
 	(no_connect
 		(at 88.9 243.84)
@@ -9932,16 +11428,6 @@
 		)
 		(uuid "043012f6-8752-46a3-ae46-a71160b7f879")
 	)
-	(label "HD_VS"
-		(at 822.96 492.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "048e0b13-c19b-4e36-9c14-07fc6bcff7e4")
-	)
 	(label "MEGA_D12_DRV_I6"
 		(at 477.52 295.91 270)
 		(effects
@@ -10032,16 +11518,6 @@
 		)
 		(uuid "07a757b5-8a8f-4fee-8b61-911d84993357")
 	)
-	(label "HDMI_CK_P"
-		(at 822.96 436.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08ae4e44-e17e-456b-852e-a9f26dc44a96")
-	)
 	(label "HD_G"
 		(at 706.12 551.18 180)
 		(effects
@@ -10051,36 +11527,6 @@
 			(justify right bottom)
 		)
 		(uuid "091f6909-339a-4635-ab9c-66ce405692c7")
-	)
-	(label "HD_AUD_L"
-		(at 764.54 492.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09afce3c-ca39-46bc-a843-2d1dea4392b2")
-	)
-	(label "HDMI_D1_P"
-		(at 764.54 447.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "09fea040-7eb2-49a0-8035-572f24e41632")
-	)
-	(label "GND"
-		(at 878.84 626.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a4c590d-ee5b-42ab-8fe8-19aa9a42d976")
 	)
 	(label "CSYNC_N"
 		(at 256.54 514.35 90)
@@ -10101,16 +11547,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a716ae4-ae89-4b59-87f1-c10f0b2f077c")
-	)
-	(label "NX_3V3"
-		(at 822.96 480.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ab933df-8345-4d85-bb89-4f59fc8acdab")
 	)
 	(label "GND"
 		(at 505.46 41.91 270)
@@ -10232,16 +11668,6 @@
 		)
 		(uuid "10faa488-a581-41aa-91b6-d08db2de3f42")
 	)
-	(label "GND"
-		(at 764.54 515.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1118940a-c424-4c13-8012-01b5697678c9")
-	)
 	(label "IN_VR4"
 		(at 533.4 186.69 90)
 		(effects
@@ -10302,16 +11728,6 @@
 		)
 		(uuid "11dea183-63a1-425e-8bac-daeca4fbc11b")
 	)
-	(label "HDMI_CK_N"
-		(at 822.96 434.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "128474fd-71a0-4b69-80e3-39b73c6ab977")
-	)
 	(label "IN_SH_NU"
 		(at 20.32 104.14 180)
 		(effects
@@ -10362,16 +11778,6 @@
 		)
 		(uuid "14a8912d-21e6-4133-b567-c6a089b08851")
 	)
-	(label "HD_B"
-		(at 822.96 462.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15b2d8f6-8c37-45df-810f-0b3192cfec00")
-	)
 	(label "MEGA_A8_METER1"
 		(at 157.48 353.06 180)
 		(effects
@@ -10381,26 +11787,6 @@
 			(justify right bottom)
 		)
 		(uuid "1751fac6-1d1f-4ebc-898f-328da8a5518c")
-	)
-	(label "NX_3V3"
-		(at 795.02 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "180dffa2-c068-40ac-a921-2df250112321")
-	)
-	(label "HD_HS"
-		(at 822.96 500.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "181de262-6941-4609-bf1e-4e4c3888b8f8")
 	)
 	(label "IN_COIN2"
 		(at 673.1 135.89 90)
@@ -10572,26 +11958,6 @@
 		)
 		(uuid "2147adc2-3343-423e-bdce-ddf6e5d6637f")
 	)
-	(label "HDMI_D0_P"
-		(at 822.96 444.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "216ff264-3aae-41d1-a93d-5051920171ab")
-	)
-	(label "HDMI_D2_P"
-		(at 764.54 452.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "21a2bf9f-f395-4ea8-a365-177f82c04339")
-	)
 	(label "IN_VR3"
 		(at 20.32 63.5 180)
 		(effects
@@ -10611,16 +11977,6 @@
 			(justify right bottom)
 		)
 		(uuid "222531a3-ee4f-48c5-a640-84012d64c116")
-	)
-	(label "CS_AUD_VREF"
-		(at 711.2 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22c209f7-603c-4de2-9441-d7e66fa5d603")
 	)
 	(label "AMP_FB_R"
 		(at 50.8 732.79 270)
@@ -10691,16 +12047,6 @@
 			(justify left bottom)
 		)
 		(uuid "26a9d510-3128-4c36-8a4e-661f59b2f348")
-	)
-	(label "NX_3V3"
-		(at 850.9 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27c396a8-c73a-42d7-8e1c-8d26ee62cca2")
 	)
 	(label "+5V_MEGA"
 		(at 365.76 288.29 90)
@@ -10912,16 +12258,6 @@
 		)
 		(uuid "32441d8b-4af6-4e5f-82ee-1115a3802dc2")
 	)
-	(label "HDMI_D2_P"
-		(at 822.96 457.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "326c21ba-7f04-4abb-a069-916bbed2c235")
-	)
 	(label "J13_VS"
 		(at 764.54 553.72 180)
 		(effects
@@ -11021,26 +12357,6 @@
 			(justify right bottom)
 		)
 		(uuid "36074cbb-7a99-4e0a-80d0-cb020264c522")
-	)
-	(label "HDMI_D0_N"
-		(at 822.96 441.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "369a0bb9-97cf-482e-8e39-9709b6239fc1")
-	)
-	(label "GND"
-		(at 795.02 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37b9e3b3-b7b2-44b6-be51-3e645204db22")
 	)
 	(label "VGA_G"
 		(at 340.36 514.35 90)
@@ -11211,16 +12527,6 @@
 			(justify right bottom)
 		)
 		(uuid "3fec582d-bd3c-497c-8997-3f5385daa9da")
-	)
-	(label "NX_3V3"
-		(at 822.96 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "410dfd95-9f66-4447-8485-95cf487c2b83")
 	)
 	(label "MEGA_D13_DRV_I7"
 		(at 505.46 295.91 270)
@@ -11532,26 +12838,6 @@
 		)
 		(uuid "52f7b88a-5f99-43a9-9e74-4387cb926748")
 	)
-	(label "GND"
-		(at 878.84 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "531a49fd-9f12-42ea-b289-239419f176a2")
-	)
-	(label "CS_3V3"
-		(at 764.54 485.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "535cda33-9720-49d7-bcce-3746ea23dce8")
-	)
 	(label "DRV_O4"
 		(at 226.06 254 180)
 		(effects
@@ -11592,16 +12878,6 @@
 		)
 		(uuid "545d274d-99f1-457b-ad42-4178ca28c867")
 	)
-	(label "GND"
-		(at 906.78 626.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54ea51cd-e1c2-448b-ad9a-94ddab500a29")
-	)
 	(label "+5V_BORNE"
 		(at 157.48 33.02 180)
 		(effects
@@ -11631,26 +12907,6 @@
 			(justify right bottom)
 		)
 		(uuid "56b893b7-b47e-424c-a4df-398e75489e38")
-	)
-	(label "CS_3V3"
-		(at 822.96 618.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56b8e04f-87ff-4dac-9a64-cfad0b3ceff6")
-	)
-	(label "+5V_CONV"
-		(at 764.54 457.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57d65c64-0460-45ae-9ff4-d1de285226ca")
 	)
 	(label "VS_AVG"
 		(at 114.3 515.62 180)
@@ -11711,16 +12967,6 @@
 			(justify right bottom)
 		)
 		(uuid "5c4e4265-b93c-4cdc-a920-2d4b270f1a7d")
-	)
-	(label "HD_R"
-		(at 822.96 467.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c8c5848-ad6e-4e2f-95cc-f65664971806")
 	)
 	(label "MEGA_A11_LAMP_VR1"
 		(at 157.48 360.68 180)
@@ -11811,26 +13057,6 @@
 			(justify right bottom)
 		)
 		(uuid "5f4633cb-e1c3-4e1e-a976-6dc70a539187")
-	)
-	(label "CS_AUD_VREF"
-		(at 764.54 490.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60824d82-5ece-4b8a-b10d-d56dc38c2428")
-	)
-	(label "HD_AUD_L"
-		(at 822.96 474.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60e1ea16-b229-4f16-b458-da43012984bd")
 	)
 	(label "TERM_G"
 		(at 340.36 521.97 270)
@@ -11982,16 +13208,6 @@
 		)
 		(uuid "67491f8d-59b1-4316-b500-95d1c9554693")
 	)
-	(label "HDMI_CK_N"
-		(at 764.54 434.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67513a60-9108-4fbf-94f4-85f3979f5606")
-	)
 	(label "MEGA_D46_SERVICE"
 		(at 226.06 304.8 180)
 		(effects
@@ -12031,16 +13247,6 @@
 			(justify right bottom)
 		)
 		(uuid "68e14ef9-f1b1-411d-ae5f-1123e7b90fd7")
-	)
-	(label "NX_1V2"
-		(at 822.96 439.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69002f8a-fe8e-4014-91bb-9d7bd99efac6")
 	)
 	(label "IN_SH1234"
 		(at 617.22 186.69 90)
@@ -12203,16 +13409,6 @@
 		(uuid "6fda684f-bf3a-4bd9-bc46-5174e6e3e8fb")
 	)
 	(label "GND"
-		(at 822.96 515.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70083cb4-a06a-424a-a542-ef585860d1d4")
-	)
-	(label "GND"
 		(at 421.64 41.91 270)
 		(effects
 			(font
@@ -12332,16 +13528,6 @@
 		)
 		(uuid "748224a1-fbb2-43e8-b737-ed52bb380e28")
 	)
-	(label "GND"
-		(at 822.96 626.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74b64f97-da9f-4cae-9f00-82e9542e349e")
-	)
 	(label "+5V_MEGA"
 		(at 561.34 85.09 90)
 		(effects
@@ -12452,16 +13638,6 @@
 		)
 		(uuid "7d5ced61-ebff-4624-a0b5-836ec2564597")
 	)
-	(label "NX_1V2"
-		(at 878.84 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7df54c2e-f51a-46b2-a9a8-bfa9ef51c68e")
-	)
 	(label "GND"
 		(at 533.4 92.71 270)
 		(effects
@@ -12482,16 +13658,6 @@
 		)
 		(uuid "7f089bd5-3130-4055-882c-3d4e230d1253")
 	)
-	(label "HDMI_D1_N"
-		(at 822.96 449.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "802ba508-d344-4caa-af4c-1854272f3346")
-	)
 	(label "MEGA_D10_DRV_I4"
 		(at 533.4 245.11 270)
 		(effects
@@ -12511,16 +13677,6 @@
 			(justify right bottom)
 		)
 		(uuid "8076ad4b-1622-474f-8505-ca9dad390d2c")
-	)
-	(label "HD_AUD_R"
-		(at 764.54 487.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80bf3640-5adc-4b46-a6cb-5c08c799d382")
 	)
 	(label "HDMI_5V"
 		(at 739.14 618.49 90)
@@ -12772,16 +13928,6 @@
 		)
 		(uuid "8bd44709-127f-49b6-8e30-e3dd6cef4ace")
 	)
-	(label "CS_3V3"
-		(at 878.84 618.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8cac8aaf-6c74-422a-bad9-15bc1198b9b7")
-	)
 	(label "+5V_MEGA"
 		(at 88.9 43.18 180)
 		(effects
@@ -12792,16 +13938,6 @@
 		)
 		(uuid "8cf19248-b1cb-4243-92ce-147853668ea9")
 	)
-	(label "GND"
-		(at 822.96 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d5d8257-c070-4b46-bafe-602d7099abb1")
-	)
 	(label "CSYNC_XOR"
 		(at 114.3 528.32 180)
 		(effects
@@ -12811,16 +13947,6 @@
 			(justify right bottom)
 		)
 		(uuid "8e324d03-61a4-4706-9e12-bf627cf7ff00")
-	)
-	(label "GND"
-		(at 850.9 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e638ed5-9fbc-402b-90f1-79f19b36043a")
 	)
 	(label "MEGA_D52_DRV_I1"
 		(at 449.58 245.11 270)
@@ -12992,16 +14118,6 @@
 		)
 		(uuid "94d91a6a-4497-4e58-a012-3713e1b63ded")
 	)
-	(label "NX_3V3"
-		(at 822.96 459.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "955472ca-f1fe-4790-b7ca-6e1c64f1c621")
-	)
 	(label "AMP_R"
 		(at 114.3 629.92 180)
 		(effects
@@ -13061,16 +14177,6 @@
 			(justify right bottom)
 		)
 		(uuid "9855a1ee-a54d-4f1f-b645-4fb3960d6770")
-	)
-	(label "GND"
-		(at 822.96 490.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98eb16ca-d1ae-485f-b447-ccecc545ecaf")
 	)
 	(label "MEGA_D44_VR1"
 		(at 449.58 194.31 270)
@@ -13162,16 +14268,6 @@
 		)
 		(uuid "9b39fef1-4ada-4555-8f2a-8f3995f77a2f")
 	)
-	(label "HDMI_D1_N"
-		(at 764.54 444.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9bd88a1f-ecc5-40a4-af28-9214158b6336")
-	)
 	(label "OUT_LAMP_VR2"
 		(at 157.48 386.08 180)
 		(effects
@@ -13181,16 +14277,6 @@
 			(justify right bottom)
 		)
 		(uuid "9bfe81aa-cc7f-4ffa-9fe1-a4af2c24ca0a")
-	)
-	(label "HDMI_D1_P"
-		(at 822.96 452.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c74ceb2-4478-4a2f-940b-ead9d458162b")
 	)
 	(label "VGA_HS"
 		(at 764.54 548.64 180)
@@ -13241,16 +14327,6 @@
 			(justify left bottom)
 		)
 		(uuid "9efc1e5a-faf0-4607-890f-1fe32cd86be0")
-	)
-	(label "CS_3V3"
-		(at 764.54 513.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f811323-2794-4832-ade9-80532897235b")
 	)
 	(label "DRV_I3"
 		(at 20.32 190.5 180)
@@ -13332,16 +14408,6 @@
 		)
 		(uuid "a4ec141c-5be6-4f79-acb0-a5743ab33a82")
 	)
-	(label "NX_3V3"
-		(at 822.96 485.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a57b2696-6947-4c92-a91f-6ab34ac5e36e")
-	)
 	(label "+5V_MEGA"
 		(at 88.9 27.94 180)
 		(effects
@@ -13371,16 +14437,6 @@
 			(justify left bottom)
 		)
 		(uuid "a77e0144-fc3e-4fcd-be3d-a928e763a680")
-	)
-	(label "HD_HS"
-		(at 764.54 462.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a803864e-342f-4941-ab22-bfebbeec9582")
 	)
 	(label "J13_G"
 		(at 706.12 553.72 180)
@@ -13512,16 +14568,6 @@
 		)
 		(uuid "aeb24847-e01c-4c5b-928f-38560a070fab")
 	)
-	(label "NX_3V3"
-		(at 822.96 447.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aecac68b-c549-468a-bdf4-9fd36adb1443")
-	)
 	(label "VID_G"
 		(at 182.88 510.54 180)
 		(effects
@@ -13631,16 +14677,6 @@
 			(justify right bottom)
 		)
 		(uuid "b794d95d-24b8-4abd-bc4e-7b6fefb2cfef")
-	)
-	(label "GND"
-		(at 850.9 626.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7e1c900-15cc-4fd0-b5cc-5287cd170ee9")
 	)
 	(label "GND"
 		(at 182.88 518.16 180)
@@ -13762,26 +14798,6 @@
 		)
 		(uuid "bdf0f4ef-3bc3-403e-8c94-b9728dd2cd7a")
 	)
-	(label "CS_3V3"
-		(at 764.54 482.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be00ec30-3646-4b82-a1a1-792ad8d61504")
-	)
-	(label "HD_AUD_R"
-		(at 822.96 477.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be5073d5-b70b-4681-a438-c06e6ff5eeb2")
-	)
 	(label "+5V_MEGA"
 		(at 822.96 684.53 90)
 		(effects
@@ -13821,16 +14837,6 @@
 			(justify right bottom)
 		)
 		(uuid "bf192cb2-5258-4f9c-b13a-5f2d546113ee")
-	)
-	(label "HD_R"
-		(at 764.54 480.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf6d892f-2ac4-4150-a142-48d08e6ab293")
 	)
 	(label "+5V_MEGA"
 		(at 711.2 725.17 270)
@@ -13872,16 +14878,6 @@
 		)
 		(uuid "c08fa634-4511-4ddd-aee3-2648fbed78c8")
 	)
-	(label "HD_B"
-		(at 764.54 474.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0a28bdc-b5b0-4b03-a9fd-b0e54b783748")
-	)
 	(label "MEGA_D47_TEST"
 		(at 226.06 302.26 180)
 		(effects
@@ -13912,16 +14908,6 @@
 		)
 		(uuid "c1f6d978-3084-4e02-9744-f2972c510c1b")
 	)
-	(label "HD_G"
-		(at 764.54 477.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c2625a0b-69e8-491b-a536-ce2baf5875a4")
-	)
 	(label "MEGA_A13_LAMP_VR3"
 		(at 157.48 365.76 180)
 		(effects
@@ -13931,16 +14917,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2d9cfa1-0ae7-4023-a1b6-856993381e13")
-	)
-	(label "GND"
-		(at 795.02 626.11 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c39be078-156f-4ceb-a615-ee892f344f9a")
 	)
 	(label "HD_VS"
 		(at 764.54 551.18 180)
@@ -13961,26 +14937,6 @@
 			(justify right bottom)
 		)
 		(uuid "c40f393d-30a0-4c27-9af6-5adac610b77a")
-	)
-	(label "NX_1V2"
-		(at 822.96 510.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c42d0187-a08b-4a84-b4a8-e8b4db287eb9")
-	)
-	(label "HDMI_D0_P"
-		(at 764.54 441.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c481009e-e77c-4560-a044-b1e11ce4a7bc")
 	)
 	(label "MEGA_D32_SH24"
 		(at 226.06 269.24 180)
@@ -14042,16 +14998,6 @@
 		)
 		(uuid "c6c070bb-60b9-4b1d-95fc-399d9cace1bf")
 	)
-	(label "NX_3V3"
-		(at 822.96 469.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6ef217b-1691-4274-92fe-8db0f351c615")
-	)
 	(label "AUD_OUT_R"
 		(at 822.96 543.56 180)
 		(effects
@@ -14082,16 +15028,6 @@
 		)
 		(uuid "c828ceb5-5d48-49e9-ab03-6bcc7f29b79a")
 	)
-	(label "CS_3V3"
-		(at 764.54 472.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c88a13a7-0d33-438c-9014-23cb4775df2b")
-	)
 	(label "VGA_HS"
 		(at 114.3 508 180)
 		(effects
@@ -14111,16 +15047,6 @@
 			(justify right bottom)
 		)
 		(uuid "c8db1a51-dc29-4692-b8f0-96252c97b5b1")
-	)
-	(label "CS_3V3"
-		(at 764.54 454.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cae374f3-a6fd-4768-b3d2-c4c36766d4e7")
 	)
 	(label "DRV_I2"
 		(at 477.52 237.49 90)
@@ -14163,16 +15089,6 @@
 		(uuid "cc1312e2-fed7-4566-918f-eb26732a11b6")
 	)
 	(label "GND"
-		(at 711.2 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd214eee-55e4-45e4-b111-86ac5a50a731")
-	)
-	(label "GND"
 		(at 88.9 40.64 180)
 		(effects
 			(font
@@ -14181,16 +15097,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd2db85f-6639-43d4-b831-b86995e95423")
-	)
-	(label "NX_1V2"
-		(at 822.96 482.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd804e1d-75c7-41f9-809c-185c6f81d491")
 	)
 	(label "VS_NORM"
 		(at 114.3 520.7 180)
@@ -14292,16 +15198,6 @@
 		)
 		(uuid "d24ed85e-4a90-45e4-8eee-0119a0bf2950")
 	)
-	(label "CS_AUD_VREF"
-		(at 906.78 618.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2883b48-98b1-480f-903b-4bf223361b00")
-	)
 	(label "MEGA_A9_METER2"
 		(at 157.48 355.6 180)
 		(effects
@@ -14311,16 +15207,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3d2b6e8-37a3-49e4-876c-47780f9369f8")
-	)
-	(label "HDMI_D2_N"
-		(at 764.54 449.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3d68c1f-b029-4919-b9ec-30f9cd0fad65")
 	)
 	(label "IN_SH13"
 		(at 561.34 186.69 90)
@@ -14402,16 +15288,6 @@
 		)
 		(uuid "d7c218ef-f811-40be-96bf-15a787a71c16")
 	)
-	(label "CS_3V3"
-		(at 764.54 469.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d83cd74b-62cc-4a9a-b732-cd0a57c0d883")
-	)
 	(label "GND"
 		(at 157.48 45.72 180)
 		(effects
@@ -14432,16 +15308,6 @@
 		)
 		(uuid "d8d72a9e-f0ab-4bd6-b81f-aad0d5c42d31")
 	)
-	(label "HD_G"
-		(at 822.96 464.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d91cf624-c363-4ce9-ad77-fb107dc12b37")
-	)
 	(label "+5V_MEGA"
 		(at 477.52 135.89 90)
 		(effects
@@ -14451,16 +15317,6 @@
 			(justify left bottom)
 		)
 		(uuid "d95e7a03-a783-4bad-81d9-6ab41a250fb4")
-	)
-	(label "+5V_CONV"
-		(at 822.96 487.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9fb19b4-957f-478c-8abf-ad63f6b033fa")
 	)
 	(label "MEGA_D12_DRV_I6"
 		(at 157.48 248.92 180)
@@ -14582,26 +15438,6 @@
 		)
 		(uuid "dd41d548-de25-4f9d-95f6-271e3fdab349")
 	)
-	(label "HDMI_CK_P"
-		(at 764.54 436.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd4a47ff-9fbc-4fe2-a7c1-7e90b42ba17e")
-	)
-	(label "GND"
-		(at 906.78 659.13 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd619d30-aad0-4124-ae34-6e064dc4108b")
-	)
 	(label "+5V_CONV"
 		(at 998.22 543.56 180)
 		(effects
@@ -14641,16 +15477,6 @@
 			(justify right bottom)
 		)
 		(uuid "df7c7b0a-9d41-4d4b-8119-07f3a787c844")
-	)
-	(label "HD_VS"
-		(at 764.54 459.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfda37b5-3f20-48b3-9492-9ee182272b97")
 	)
 	(label "AMP_OUT_G"
 		(at 45.72 647.7 180)
@@ -14731,16 +15557,6 @@
 			(justify right bottom)
 		)
 		(uuid "e426fc95-b2a4-4431-9944-fac34207d6b6")
-	)
-	(label "HDMI_D0_N"
-		(at 764.54 439.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4b5c437-eaa3-4276-843c-d488a8a26fbe")
 	)
 	(label "+5V_MEGA"
 		(at 88.9 424.18 180)
@@ -14832,16 +15648,6 @@
 		)
 		(uuid "e828052d-4bf0-4acf-8966-d1915b8e8e1e")
 	)
-	(label "CS_3V3"
-		(at 850.9 618.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8a0bb54-bed2-404e-9283-4314e0fc3d9d")
-	)
 	(label "AMP_OUT_R"
 		(at 45.72 645.16 180)
 		(effects
@@ -14932,26 +15738,6 @@
 		)
 		(uuid "ec5dfeb9-c641-46a3-9866-1fd7a5f2fd9d")
 	)
-	(label "NX_3V3"
-		(at 822.96 513.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ece1e5df-f1f6-48ba-94f4-568823911b8c")
-	)
-	(label "NX_1V2"
-		(at 906.78 651.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed6d49bd-a030-4991-bcb4-183fa00f9df0")
-	)
 	(label "IN_START"
 		(at 20.32 48.26 180)
 		(effects
@@ -14971,26 +15757,6 @@
 			(justify right bottom)
 		)
 		(uuid "ef702718-d27a-4d68-ac26-496142fbd57d")
-	)
-	(label "CS_3V3"
-		(at 795.02 618.49 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef90eaba-1425-41a6-b2b7-e05c1cba418e")
-	)
-	(label "HDMI_D2_N"
-		(at 822.96 454.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "efaeb65c-9374-4df3-81ff-142f55d0f9c7")
 	)
 	(label "MEGA_D31_SH1234"
 		(at 617.22 194.31 270)
@@ -17448,97 +18214,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 711.2 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23ecb0fc-abf3-476f-8858-f1716d71aa8a")
-		(property "Reference" "C31"
-			(at 713.74 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 713.74 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 711.2 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 711.2 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 711.2 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 711.2 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2a5724b-f01c-4ddf-83d2-ab7af51ce4e5")
-		)
-		(pin "2"
-			(uuid "161a0231-b0b8-4702-9744-a781ae734b51")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -20940,191 +21615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VIDEO_CS5213")
-		(at 769.62 431.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "618d486f-72ed-4289-a24b-cb56f930eab8")
-		(property "Reference" "U4"
-			(at 769.62 429.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CS5213"
-			(at 769.62 520.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm"
-			(at 769.62 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 769.62 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Convertisseur HDMI → VGA + audio (Capstone). POSER U4 OU U5, JAMAIS LES DEUX. Acheté à part (AliExpress), posé à la main"
-			(at 769.62 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CS5213AN"
-			(at 769.62 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ed95629d-d1e6-4869-98b3-a6ec16572d10")
-		)
-		(pin "2"
-			(uuid "7c862eef-af11-4991-a5e7-5cbda6f4e477")
-		)
-		(pin "3"
-			(uuid "cf1999f8-b789-43ea-86f0-7238708e2022")
-		)
-		(pin "4"
-			(uuid "b7a5be8d-dc71-46ca-9ae6-4ba7609767fc")
-		)
-		(pin "5"
-			(uuid "b3f78113-c146-4196-addc-f05e75549c55")
-		)
-		(pin "6"
-			(uuid "1bfd1610-4598-43a6-8608-fa2e9a3cacaa")
-		)
-		(pin "7"
-			(uuid "0acadd4b-f068-46f2-97de-588f6f9ce81d")
-		)
-		(pin "8"
-			(uuid "835c36b6-f2e2-4535-9332-7288a6cb152e")
-		)
-		(pin "9"
-			(uuid "8d18eee8-87b4-4f68-bb96-6b6d481feb91")
-		)
-		(pin "10"
-			(uuid "2ab015bb-6954-4a16-b65d-077ac6979c23")
-		)
-		(pin "11"
-			(uuid "05a47d0b-323f-492a-a1e8-df44010c9286")
-		)
-		(pin "12"
-			(uuid "b8d93410-aa42-4feb-b214-3065f6537669")
-		)
-		(pin "13"
-			(uuid "e112f880-4528-4a6e-8158-8314f63bbf12")
-		)
-		(pin "14"
-			(uuid "c422270b-762e-4efa-9a20-cace68b76261")
-		)
-		(pin "15"
-			(uuid "c72516b5-36cc-41e0-b1fd-8b5f2c329235")
-		)
-		(pin "16"
-			(uuid "c76c1197-b26d-49f9-8b06-aaf3bcdec086")
-		)
-		(pin "17"
-			(uuid "bc858b89-6ef8-4fb1-8ed3-b898451065cd")
-		)
-		(pin "18"
-			(uuid "8af3b9c8-3919-43c7-a6b0-9d6fce510b84")
-		)
-		(pin "19"
-			(uuid "e9d279d9-538c-47fc-b044-3ffe87f617fc")
-		)
-		(pin "20"
-			(uuid "403c58ee-37d3-4cf9-ac4b-0e17437a06a6")
-		)
-		(pin "21"
-			(uuid "2484de37-c1ab-4537-8c7a-6c916a688cdc")
-		)
-		(pin "22"
-			(uuid "c1742b70-42f2-4ca8-bd44-8d8a0b5aaff3")
-		)
-		(pin "23"
-			(uuid "b4d49176-fd98-455c-890f-0efa3be783ff")
-		)
-		(pin "24"
-			(uuid "1dec32e5-9a39-4f66-a45f-145eb618078b")
-		)
-		(pin "25"
-			(uuid "a054a75b-35c0-43af-b715-da2dc33b2b12")
-		)
-		(pin "26"
-			(uuid "85e975e1-b562-474e-8361-bf420edc24d6")
-		)
-		(pin "27"
-			(uuid "89a2c804-9aa6-45b6-84ce-59af1da3b018")
-		)
-		(pin "28"
-			(uuid "a05c45f8-da8d-4be3-bab7-4afe2360392c")
-		)
-		(pin "29"
-			(uuid "10ced085-1085-4b98-8ab9-0b2d107176cc")
-		)
-		(pin "30"
-			(uuid "dadce06b-c188-470b-be61-9454b031201b")
-		)
-		(pin "31"
-			(uuid "75d93484-0e8c-4802-8b6c-6b8c9092e6ba")
-		)
-		(pin "32"
-			(uuid "b3523ae2-fd4c-4c76-8884-f13b48d20860")
-		)
-		(pin "33"
-			(uuid "6f3a3c07-d4de-48fc-9c2c-539b6e21e7fd")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EDIF__61300311121")
 		(at 25.4 350.52 0)
 		(unit 1)
@@ -21703,97 +22193,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "SH5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 822.96 622.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e1c6894-f4b7-4a27-a678-59093f7bf1f2")
-		(property "Reference" "C27"
-			(at 825.5 621.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 825.5 623.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 822.96 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 822.96 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 822.96 622.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 822.96 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3ff3f99-9727-4078-8f80-0a15ba03d46b")
-		)
-		(pin "2"
-			(uuid "0d413ec2-5bcf-4eba-95dd-7502fef47db1")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -22446,7 +22845,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7b8bda52-28d5-4d48-9e9a-0f37c8764bb9")
 		(property "Reference" "TP4"
 			(at 162.56 419.1 0)
@@ -23019,191 +23418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VIDEO_NX3303X")
-		(at 828.04 431.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "86939a82-1319-47c6-acba-b8a9c21f1f5b")
-		(property "Reference" "U5"
-			(at 828.04 429.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NX3303X"
-			(at 828.04 520.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
-			(at 828.04 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 828.04 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Convertisseur HDMI → VGA + audio (纳祥科技), empreinte de secours. POSER U4 OU U5, JAMAIS LES DEUX"
-			(at 828.04 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "NX3303X"
-			(at 828.04 431.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5cee45ef-fbb7-45ef-8a85-7f969276f477")
-		)
-		(pin "2"
-			(uuid "8869fc8b-7c7f-4e05-9881-51439e3b4944")
-		)
-		(pin "3"
-			(uuid "add916dd-cd23-468b-8c65-43b552dc2635")
-		)
-		(pin "4"
-			(uuid "0f4a5578-1046-4df0-a88c-57f16d1389c7")
-		)
-		(pin "5"
-			(uuid "c691b3af-b1f9-45f4-b781-254f2010c246")
-		)
-		(pin "6"
-			(uuid "6fafab48-5d97-48ee-b6f4-f1863a523355")
-		)
-		(pin "7"
-			(uuid "82574760-1edc-41c0-9687-94b91865cc06")
-		)
-		(pin "8"
-			(uuid "804dc616-85f3-452f-8d9a-87396bdcc1f1")
-		)
-		(pin "9"
-			(uuid "c29c3210-6636-4194-a7c4-73db579848ae")
-		)
-		(pin "10"
-			(uuid "1b972ccb-7927-4d71-b576-c97f725596ae")
-		)
-		(pin "11"
-			(uuid "c5e2a0d6-2016-4e3a-8de3-c1f1ab6b0e5f")
-		)
-		(pin "12"
-			(uuid "ee454470-2fee-43f2-a3dc-ef44d56559dd")
-		)
-		(pin "13"
-			(uuid "76a35d1d-fea3-45f8-8d7f-0936a240972f")
-		)
-		(pin "14"
-			(uuid "cc49a04f-30ac-440a-8f9c-2fa241dfc9be")
-		)
-		(pin "15"
-			(uuid "034e08ef-7c5d-4a53-84bb-d340dcfbd95d")
-		)
-		(pin "16"
-			(uuid "3bb5ae9f-25bc-4a4f-9f74-e72d905fc31b")
-		)
-		(pin "17"
-			(uuid "b5a849af-b1a3-4aa5-9dd4-c408e0db048a")
-		)
-		(pin "18"
-			(uuid "7727dd72-c6e3-44bb-bda6-ae95125872f8")
-		)
-		(pin "19"
-			(uuid "0c0b3d81-ca36-4d2e-ba02-4666ec829d0d")
-		)
-		(pin "20"
-			(uuid "db6a6e5f-11f0-4a38-acec-4ca182b305af")
-		)
-		(pin "21"
-			(uuid "a0983709-5755-4d57-b8c7-b20070577523")
-		)
-		(pin "22"
-			(uuid "a681de32-11ba-49ee-af3b-81e55e9998e7")
-		)
-		(pin "23"
-			(uuid "cdfed19f-8b44-47cc-adc7-c19ce7ba75de")
-		)
-		(pin "24"
-			(uuid "43f60c50-ca80-4e28-b78c-3d1c07d893d1")
-		)
-		(pin "25"
-			(uuid "35cea7a4-1364-4a6d-8fe1-02c99489f01c")
-		)
-		(pin "26"
-			(uuid "e961160b-da2b-4a18-a6c4-e47a14554478")
-		)
-		(pin "27"
-			(uuid "e771ce1a-5ded-44f4-81fb-40cc38a31ebe")
-		)
-		(pin "28"
-			(uuid "4d8d1a8c-4a63-4c91-b151-3786291768b1")
-		)
-		(pin "29"
-			(uuid "2d7e3149-04e6-4c10-b1b5-c7ca4c2b28d4")
-		)
-		(pin "30"
-			(uuid "cc8ec968-978e-4cf6-83fc-2a918182b737")
-		)
-		(pin "31"
-			(uuid "4ff55eef-2f29-4e0e-80a8-04e0372b1cec")
-		)
-		(pin "32"
-			(uuid "e79d07a5-6757-4d82-83cf-88a4e64343ea")
-		)
-		(pin "33"
-			(uuid "589f6c01-483a-45c1-ad34-1990486f71b6")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EDIF__61300811121")
 		(at 93.98 177.8 0)
 		(unit 1)
@@ -23307,97 +23521,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 878.84 622.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "882346cb-de36-4909-9044-2da28c028c1e")
-		(property "Reference" "C29"
-			(at 881.38 621.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 881.38 623.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 878.84 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 878.84 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 878.84 622.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 878.84 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eacd5ca3-38c9-4c61-8482-5f1904b49089")
-		)
-		(pin "2"
-			(uuid "13463856-9cb9-47ac-94d0-54d3cd952cd5")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -23762,97 +23885,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 795.02 622.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90713ac4-8e7a-45dd-a507-b2f108676ad1")
-		(property "Reference" "C26"
-			(at 797.56 621.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 797.56 623.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 795.02 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 795.02 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 795.02 622.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A106KAYNNNE"
-			(at 795.02 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31dd78cf-0b09-4b6e-8250-1c1b59db87fc")
-		)
-		(pin "2"
-			(uuid "bbc6ee7b-a731-4143-9408-fc61a5082aa5")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -25273,97 +25305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 850.9 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "accbbf75-361e-45fb-b99c-6a79cef654e2")
-		(property "Reference" "C36"
-			(at 853.44 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 853.44 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 850.9 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 850.9 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 850.9 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 850.9 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e55d2eb-52bf-4bf8-8f0e-b363316d58a1")
-		)
-		(pin "2"
-			(uuid "eb534f41-a294-4bf1-8bb9-eb01f1de4b28")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 589.28 139.7 0)
 		(unit 1)
@@ -25764,97 +25705,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 906.78 622.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aea8a65a-80ac-4e17-a62b-dfbd83ad1343")
-		(property "Reference" "C30"
-			(at 909.32 621.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 909.32 623.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 906.78 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 906.78 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 906.78 622.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A106KAYNNNE"
-			(at 906.78 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f187c58-4773-4cb3-a03e-127cdc78e0ab")
-		)
-		(pin "2"
-			(uuid "0c404667-d533-4e19-bdf7-03506ae78db4")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 284.48 518.16 0)
 		(unit 1)
 		(body_style 1)
@@ -26030,97 +25880,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 795.02 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af4ea18b-86ff-44b5-abd8-1a7c09cf00e8")
-		(property "Reference" "C34"
-			(at 797.56 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 797.56 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 795.02 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 795.02 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 795.02 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A106KAYNNNE"
-			(at 795.02 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a7ea8f2-f3c3-453f-a224-b98f08882bf9")
-		)
-		(pin "2"
-			(uuid "03efe4c7-5652-4e79-993f-00526d38dffd")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -26590,7 +26349,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bae2fd5e-6e8a-4e8a-8110-66328debc57a")
 		(property "Reference" "TP2"
 			(at 25.4 419.1 0)
@@ -27627,97 +27386,6 @@
 			(project "m2-io-emulator-board"
 				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 878.84 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c8adcd2f-2cb9-427a-a5c7-654f510e20d3")
-		(property "Reference" "C37"
-			(at 881.38 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 881.38 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 878.84 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 878.84 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 878.84 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL21A106KAYNNNE"
-			(at 878.84 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "283d34db-9bf8-45a1-8808-0b58e4d1972f")
-		)
-		(pin "2"
-			(uuid "aac59865-ffcb-4d71-85ef-ec275ad59c8f")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -28928,97 +28596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 906.78 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e43e4fd8-9a16-4d6a-98c8-3ef9c523261b")
-		(property "Reference" "C38"
-			(at 909.32 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 909.32 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 906.78 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 906.78 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 906.78 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 906.78 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "effc4cb5-e9f0-4299-b7be-e7f6145ab51c")
-		)
-		(pin "2"
-			(uuid "5d0223e9-75fc-4bd3-a02f-a57263087fd8")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EDIF__61301211121")
 		(at 25.4 177.8 0)
 		(unit 1)
@@ -29148,7 +28725,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e81c3d0a-8029-4ca1-a8f3-51d89aa22b54")
 		(property "Reference" "R60"
 			(at 713.74 621.03 0)
@@ -30168,188 +29745,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 850.9 622.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f71fc35d-ecba-4c94-924b-10ce0a206532")
-		(property "Reference" "C28"
-			(at 853.44 621.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 853.44 623.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 850.9 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 850.9 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 850.9 622.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 850.9 622.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f5e81cc-7022-47ad-9dcb-6d0474b16bea")
-		)
-		(pin "2"
-			(uuid "fcb7f1e5-b353-4bb0-8c92-aebbd19eb05f")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 822.96 655.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f800a93e-5515-44c3-9aae-092205ef4471")
-		(property "Reference" "C35"
-			(at 825.5 654.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 825.5 656.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 822.96 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 822.96 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 822.96 655.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CC0805KRX7R9BB104"
-			(at 822.96 655.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf4f880e-ea64-429c-89db-8ceb58e38207")
-		)
-		(pin "2"
-			(uuid "2c8a1eac-bb33-478e-8594-b9ffd7c4c0f3")
-		)
-		(instances
-			(project "m2-io-emulator-board"
-				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 767.08 655.32 0)
 		(unit 1)
 		(body_style 1)
@@ -30950,7 +30345,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe304fab-9737-44f8-aee9-c6b76f8d36d1")
 		(property "Reference" "TP1"
 			(at 231.14 347.98 0)
@@ -31038,7 +30433,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fe358e80-6d93-44c1-8cd6-606c7b4f6f25")
 		(property "Reference" "TP3"
 			(at 93.98 419.1 0)
@@ -31258,4 +30653,2853 @@
 		)
 	)
 	(embedded_fonts no)
+	(symbol
+		(lib_id "AUDIO_CONN_1x3")
+		(at 962.66 721.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bcc60f5-c87e-4d6f-90d9-fdc1e14522df")
+		(property "Reference" "J17"
+			(at 962.66 718.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AUDIO M3"
+			(at 962.66 734.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+			(at 962.66 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 962.66 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio input: straight cable from the host's line output, 1 left, 2 ground, 3 right. JST PH 2.00 mm, like the host's connector"
+			(at 962.66 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B3B-PH-K-S"
+			(at 962.66 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22ce1574-d438-4ca4-9898-84b0b5b77244")
+		)
+		(pin "2"
+			(uuid "79e06d78-f763-4bf7-9de4-42fe4bebe025")
+		)
+		(pin "3"
+			(uuid "e1231359-1f97-4ae3-a229-ae5cd223c3ff")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "AUDIO_M3_L"
+		(at 957.58 723.90 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5424b5d-52d8-46fe-8f93-8dd617b8fbf7")
+	)
+	(label "GND"
+		(at 957.58 726.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1502e1d6-4f24-4fd9-98d4-3c2fc124ce15")
+	)
+	(label "AUDIO_M3_R"
+		(at 957.58 728.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb4c77a7-f9ff-4644-82ab-9df948ad9373")
+	)
+	(symbol
+		(lib_id "AUDIO_CONN_1x4")
+		(at 1041.40 721.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01789ce2-b10e-4679-a2ae-2d77f8abd78f")
+		(property "Reference" "J18"
+			(at 1041.40 718.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AUDIO OUT"
+			(at 1041.40 736.60 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "interface-borne:JST_NH_B4P-SHF-1AA_1x04_P2.50mm_Vertical"
+			(at 1041.40 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1041.40 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio output to the cabinet's preamp (J17 passed straight through): 1 left, 2 ground, 3 right, 4 ground"
+			(at 1041.40 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B4P-SHF-1AA"
+			(at 1041.40 721.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73879a53-f3ce-4e46-a394-f29ddb17f621")
+		)
+		(pin "2"
+			(uuid "b953c755-ead0-4e12-95ab-72542f6862bc")
+		)
+		(pin "3"
+			(uuid "9e503e5c-be08-4522-84b1-3d39bfb6a194")
+		)
+		(pin "4"
+			(uuid "6fe64f12-3d90-4215-bb4a-6748da7dd02a")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "AUDIO_M3_L"
+		(at 1036.32 723.90 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14ac8def-2e4e-48cd-826c-9b8cfa7e9033")
+	)
+	(label "GND"
+		(at 1036.32 726.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88d7779c-896e-466f-a2b0-bb21f0554752")
+	)
+	(label "AUDIO_M3_R"
+		(at 1036.32 728.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2a51e68-fda9-49ca-9364-65dbec561762")
+	)
+	(label "GND"
+		(at 1036.32 731.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c05bd9ea-cf65-4c11-89f9-ec38927afa05")
+	)
+	(symbol
+		(lib_id "VIDEO_MS9292")
+		(at 449.58 320.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f20b6f49-3614-4445-951d-6d35b983246c")
+		(property "Reference" "U9"
+			(at 452.12 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MS9292"
+			(at 452.12 449.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "interface-borne:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias_D0.3"
+			(at 449.58 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 449.58 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "HDMI to VGA with audio DAC, QFN-48 6 x 6 (replaces the converters U4 and U5 of V3.2)"
+			(at 449.58 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MS9292"
+			(at 449.58 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "692662c5-6daf-44f7-baaa-e715973b9bf4")
+		)
+		(pin "2"
+			(uuid "c248552d-c480-42f5-a242-6ca7b9545c45")
+		)
+		(pin "3"
+			(uuid "c5871eb1-1c35-414e-a305-b831f5cd4f69")
+		)
+		(pin "4"
+			(uuid "a9b9d2fb-8dab-4861-8977-2dcf4708ebda")
+		)
+		(pin "5"
+			(uuid "99d1a81a-9c2d-48cd-8ad4-e66b8d41bdb7")
+		)
+		(pin "6"
+			(uuid "9819be7e-5de4-4273-9a4f-8cd5b69f1722")
+		)
+		(pin "7"
+			(uuid "33f1dbea-094c-4365-a0e1-79af92f8d43b")
+		)
+		(pin "8"
+			(uuid "b2ccbec8-2b61-435a-acd4-46103311d9b2")
+		)
+		(pin "9"
+			(uuid "1eb7b959-cb6d-4abe-bb65-98ce836bcbc2")
+		)
+		(pin "10"
+			(uuid "454eff67-2089-4818-a080-89f372555cac")
+		)
+		(pin "11"
+			(uuid "5035eee5-9c60-40b4-af82-59f3118d99a4")
+		)
+		(pin "12"
+			(uuid "0ae72e70-43c4-4c42-953d-803d1887b751")
+		)
+		(pin "13"
+			(uuid "4c650ba5-3d49-43cc-9173-b9d2e135b74c")
+		)
+		(pin "14"
+			(uuid "b2e0ec8c-7e18-4d1b-81b0-105ffa99bfe2")
+		)
+		(pin "15"
+			(uuid "fe5a7e79-24c4-428c-845f-139b448c87c5")
+		)
+		(pin "16"
+			(uuid "39b086bd-d6b9-4d86-922f-a1c786ab9d35")
+		)
+		(pin "17"
+			(uuid "8644906e-eae7-454c-9d44-69b833ebfddd")
+		)
+		(pin "18"
+			(uuid "ffa837f5-641b-4e59-80ec-c99a6e030469")
+		)
+		(pin "19"
+			(uuid "097a8f26-e0bb-4f99-8f0e-63765d0bf46c")
+		)
+		(pin "20"
+			(uuid "efbdcb75-ff68-4e1e-9400-bb4057793ad3")
+		)
+		(pin "21"
+			(uuid "ca137940-7f64-4b52-9a4c-65184ad00cfb")
+		)
+		(pin "22"
+			(uuid "c19a7281-bc49-43cd-90c0-a0a2c451c706")
+		)
+		(pin "23"
+			(uuid "e914c184-f253-4ddb-8c32-10e3db5676bd")
+		)
+		(pin "24"
+			(uuid "044ab8ee-9590-4ac3-b8ea-e7c12528acb5")
+		)
+		(pin "25"
+			(uuid "7a72b22c-0e39-4af3-ad55-bc694d6e4434")
+		)
+		(pin "26"
+			(uuid "a9a192f2-bdaa-41c1-846a-c51901b03d38")
+		)
+		(pin "27"
+			(uuid "508f7af0-97d4-4645-81ea-a735314a4e39")
+		)
+		(pin "28"
+			(uuid "08147235-2201-42a1-90f2-808edab9944b")
+		)
+		(pin "29"
+			(uuid "69529d60-658d-41c3-9fb8-a1a30d07838a")
+		)
+		(pin "30"
+			(uuid "6fc324a6-832d-4181-adf5-4f6e930af908")
+		)
+		(pin "31"
+			(uuid "4cac7f10-4e45-4712-b1f9-5e74021fdf65")
+		)
+		(pin "32"
+			(uuid "1264b839-731d-4053-8365-707972b6b253")
+		)
+		(pin "33"
+			(uuid "097bb5f8-42db-4932-bcf8-504f4f6357e6")
+		)
+		(pin "34"
+			(uuid "ddd7d73f-955d-4628-91a4-b3e5d51b9084")
+		)
+		(pin "35"
+			(uuid "389e998a-b06b-4bc8-86df-1015526234a6")
+		)
+		(pin "36"
+			(uuid "c4ef6c99-656f-41fd-b9e7-9eb6d59782f0")
+		)
+		(pin "37"
+			(uuid "8ce0be24-f352-403b-a068-13bd084c2714")
+		)
+		(pin "38"
+			(uuid "dfa1c611-1ba6-4c0c-a81e-c46e6bdcac05")
+		)
+		(pin "39"
+			(uuid "69791285-abe9-4cf7-877a-c94028f762d4")
+		)
+		(pin "40"
+			(uuid "ff8836bf-3efc-447c-9339-d0f1abc75caf")
+		)
+		(pin "41"
+			(uuid "b3ed26b5-da4b-4c86-8822-9e4ef372c637")
+		)
+		(pin "42"
+			(uuid "698c1f4a-76cd-4324-af4a-05e19d3ee295")
+		)
+		(pin "43"
+			(uuid "a553d1a0-9bfa-4729-807f-5af39c21f6e0")
+		)
+		(pin "44"
+			(uuid "d864aff4-e8b8-483e-8f5d-f5e6f292776b")
+		)
+		(pin "45"
+			(uuid "4e5ac18b-586e-47e6-9941-09908c12c9aa")
+		)
+		(pin "46"
+			(uuid "5945dddf-7e3c-4970-8cbd-51aca0ae04b2")
+		)
+		(pin "47"
+			(uuid "d7e545e2-3ed5-4189-b537-7b2217de51c5")
+		)
+		(pin "48"
+			(uuid "87c084f3-4949-45ed-b635-af27b6af56be")
+		)
+		(pin "49"
+			(uuid "71e667a6-d197-4474-84ab-7a2220de0628")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "HDMI_CK_N"
+		(at 444.50 322.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a19731d-99dc-43f3-975e-fc8497c392a6")
+	)
+	(label "HDMI_CK_P"
+		(at 444.50 325.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2866256-ea54-4805-a370-ce10ac4d8d71")
+	)
+	(label "+1V2"
+		(at 444.50 327.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3cc50fa-1ee7-4054-9680-eb0df0076013")
+	)
+	(label "HDMI_D0_N"
+		(at 444.50 330.20 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94979f9c-c252-43a5-b676-b76e47a5b8a2")
+	)
+	(label "HDMI_D0_P"
+		(at 444.50 332.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffcb7695-ff0b-4480-bf22-fbad4f3ea8d5")
+	)
+	(label "+3V3"
+		(at 444.50 335.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38eb14a3-e108-4ee0-856a-a4ec9431d5b5")
+	)
+	(label "HDMI_D1_N"
+		(at 444.50 337.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ea8e0fd-a811-4493-9151-268e528cfdf6")
+	)
+	(label "HDMI_D1_P"
+		(at 444.50 340.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83045a67-cfb5-4a4e-8d71-9f5093f6abcf")
+	)
+	(label "+1V2"
+		(at 444.50 342.90 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68865fee-6be7-46a3-8381-c682d2b5d6ca")
+	)
+	(label "HDMI_D2_N"
+		(at 444.50 345.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df9caa27-e1aa-4d40-a6a6-c9aea475cc4b")
+	)
+	(label "HDMI_D2_P"
+		(at 444.50 347.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51f43700-be84-4e72-a685-94c0c5223c8f")
+	)
+	(no_connect
+		(at 444.50 350.52)
+		(uuid "a8c03cf8-8808-47fb-abd3-93e88a45c9b2")
+	)
+	(no_connect
+		(at 444.50 353.06)
+		(uuid "65385812-9b0c-4eae-a94c-1899728e2ed7")
+	)
+	(no_connect
+		(at 444.50 355.60)
+		(uuid "f131ed45-84bd-4146-91dd-2e9ba17d6f7d")
+	)
+	(label "MS_RSTN"
+		(at 444.50 358.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77a770f9-1b9d-4c11-975d-4ca6e8fd3531")
+	)
+	(label "+3V3"
+		(at 444.50 360.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd7511ad-5880-4474-946f-873df0fbd992")
+	)
+	(label "GND"
+		(at 444.50 363.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "084b4e3e-ecc0-4de8-bb77-ac5b34e69c63")
+	)
+	(label "MS_AUD_R"
+		(at 444.50 365.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86a75ff3-1c49-4f97-9d77-7a82686bf778")
+	)
+	(label "GND"
+		(at 444.50 368.30 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92f6f497-f7a9-4662-b469-76cc7616f6df")
+	)
+	(label "+3V3"
+		(at 444.50 370.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1e00177-e878-4304-b54d-d8d157d6af43")
+	)
+	(label "MS_AUD_L"
+		(at 444.50 373.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "537b9bc4-b836-4bf8-bf2b-4d4261e59ae9")
+	)
+	(no_connect
+		(at 444.50 375.92)
+		(uuid "6d6b8623-b3e2-4478-9e03-cc9fede9ff0a")
+	)
+	(label "HD_HS"
+		(at 444.50 378.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3b242af-3582-46c7-bb5f-c146c8adeb53")
+	)
+	(label "HD_VS"
+		(at 444.50 381.00 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d75346c0-b989-40c9-8e53-7f06d21dd042")
+	)
+	(label "MS_VMID"
+		(at 444.50 383.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09faf756-4829-4ba7-876a-382f492952fc")
+	)
+	(no_connect
+		(at 444.50 386.08)
+		(uuid "805f38f2-e54d-4273-9cc2-5118edcf8ed5")
+	)
+	(no_connect
+		(at 444.50 388.62)
+		(uuid "4898472c-fd27-4db6-b333-a0e0c533801b")
+	)
+	(no_connect
+		(at 444.50 391.16)
+		(uuid "e808cff3-fda3-4276-ab5e-076c3d0ca583")
+	)
+	(label "MS_DACREF"
+		(at 444.50 393.70 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6708e12c-c5dc-4823-942c-101354e5ef1c")
+	)
+	(label "GND"
+		(at 444.50 396.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11c3be31-cf57-4a18-8790-f4011e404147")
+	)
+	(label "HD_B"
+		(at 444.50 398.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffde9e60-b060-48a4-bedd-1205c264a0f8")
+	)
+	(label "HD_G"
+		(at 444.50 401.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6abef42d-01ae-423c-ad68-fc39a8e7e723")
+	)
+	(label "HD_R"
+		(at 444.50 403.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee496c83-1638-46f5-8307-b1b309b414c1")
+	)
+	(label "+3V3"
+		(at 444.50 406.40 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dba40e3b-2050-407a-afe6-c35ed6f13624")
+	)
+	(no_connect
+		(at 444.50 408.94)
+		(uuid "4f17d071-b80e-4f3a-98e9-f273f664a755")
+	)
+	(no_connect
+		(at 444.50 411.48)
+		(uuid "c00b9ec0-4ffa-4ccb-9c9e-4c4dab6e20b5")
+	)
+	(label "+1V2"
+		(at 444.50 414.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abab3e15-6045-4685-9bb3-1dbda3960cb3")
+	)
+	(label "GND"
+		(at 444.50 416.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf832041-16f0-4753-b209-a7f1cc741a73")
+	)
+	(label "GND"
+		(at 444.50 419.10 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51036682-5b5f-4d69-b76a-60edfbd88ee8")
+	)
+	(label "+1V2"
+		(at 444.50 421.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91edb386-fb7c-4f6f-addc-8866de927561")
+	)
+	(label "MS_V12SW"
+		(at 444.50 424.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fcb8104-4442-46ff-91b6-bf0112944048")
+	)
+	(label "+3V3"
+		(at 444.50 426.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbe6b2b6-ad1f-4317-a8fc-364d2cb3c352")
+	)
+	(label "HDMI_HPD"
+		(at 444.50 429.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d4c0dd3-4cf3-4ca2-adb0-87eb3dbbea15")
+	)
+	(label "HDMI_5V"
+		(at 444.50 431.80 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "13ba0c79-c772-4349-9264-edc27e8a1553")
+	)
+	(label "MS_RXSDA"
+		(at 444.50 434.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b6279dc-a52b-477c-9a16-b779bfd04aa0")
+	)
+	(label "MS_RXSCL"
+		(at 444.50 436.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7df80bad-2578-4e00-a7c5-dfb2a7c413d9")
+	)
+	(label "+3V3"
+		(at 444.50 439.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e067c68-3967-4828-abb8-4cd56268a9ec")
+	)
+	(label "MS_REXT"
+		(at 444.50 441.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8fb7b71-6128-4fb2-92d6-5d5f8c1c4946")
+	)
+	(label "GND"
+		(at 444.50 444.50 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb7ca98c-f2df-4e46-8c19-13dfbc327b49")
+	)
+	(symbol
+		(lib_id "VIDEO_LDO_3V3")
+		(at 660.40 408.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e66b2d48-da7a-4241-a856-58550330017d")
+		(property "Reference" "U10"
+			(at 662.94 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LDO 3.3 V"
+			(at 662.94 421.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 660.40 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 660.40 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "5 V to 3.3 V regulator, 1 A, SOT-223 (pin 2 = tab)"
+			(at 660.40 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NCP1117ST33T3G"
+			(at 660.40 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad274043-0a01-4a4e-9e1a-8fb434f46850")
+		)
+		(pin "2"
+			(uuid "fd61c10c-11d2-419d-af07-9387f8a22437")
+		)
+		(pin "3"
+			(uuid "d80847f4-8d14-4edb-a418-f866cd4aa5f6")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "GND"
+		(at 655.32 411.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3d52f97-1727-42de-9cd2-77a462400ad8")
+	)
+	(label "+3V3"
+		(at 655.32 414.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9b6ab4f-27df-4178-8dd0-74205377b514")
+	)
+	(label "+5V_CONV"
+		(at 655.32 416.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53c92da3-dd21-4f0b-8f8e-d88712744b97")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 539.75 320.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "083dbb38-c3a9-4270-bd13-31e2d5dd5c42")
+		(property "Reference" "L1"
+			(at 542.29 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µH 0,7 A"
+			(at 542.29 321.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+			(at 539.75 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "POWER inductor of the 1.2 V buck converter (datasheet figure 3: it must be a 10 uH power inductor)"
+			(at 539.75 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SRN4018-100M"
+			(at 539.75 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df1641b0-3da2-44f3-9296-b6d0299609d1")
+		)
+		(pin "2"
+			(uuid "18e078aa-fd84-4cb9-aeaa-651afbb55982")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_V12SW"
+		(at 539.75 316.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28327c30-3dea-4a25-a05a-fa0a4b9d5ae5")
+	)
+	(label "+1V2"
+		(at 539.75 323.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf21c41a-8977-4f1d-aba3-41dfeb7b2b52")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 337.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50558d7d-523b-4423-87d0-b54f8c3f3de5")
+		(property "Reference" "R68"
+			(at 542.29 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 542.29 339.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "REXT (48) to ground, table 8.1"
+			(at 539.75 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 539.75 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe011ec6-ea7b-40e0-ab7c-6c7c10191b26")
+		)
+		(pin "2"
+			(uuid "1c526a90-0d62-4b5c-8113-4489fd0644eb")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_REXT"
+		(at 539.75 334.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ec0e369-f972-425e-9e19-ba1c268bc379")
+	)
+	(label "GND"
+		(at 539.75 341.63 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f70d94e-93f5-4e81-8a76-295cb121f20d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 355.60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cb3a096-7397-4c06-b670-c4c52e7efc7b")
+		(property "Reference" "R69"
+			(at 542.29 354.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560 Ω"
+			(at 542.29 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DACREF (29) to ground, figure 3"
+			(at 539.75 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07560RL"
+			(at 539.75 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86dcb2c1-1847-446e-af41-9598e3fe8ec5")
+		)
+		(pin "2"
+			(uuid "f4fa56fa-4552-47da-8e02-e23496710005")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_DACREF"
+		(at 539.75 351.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea54e271-d7b1-4022-81f0-5bc3bc2f4d1b")
+	)
+	(label "GND"
+		(at 539.75 359.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "173336ef-c168-42d9-b9a2-324c412f3a63")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 373.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec2fabef-aac7-43f7-b950-fd35911635d0")
+		(property "Reference" "R70"
+			(at 542.29 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 542.29 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pull-up of RSTN (15) to 3.3 V; an addition, the datasheet describes no pull"
+			(at 539.75 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 539.75 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "791fd702-52a0-4ef0-a680-26c3f39a4a9b")
+		)
+		(pin "2"
+			(uuid "afd80a1b-45f5-4ad4-9fe7-29e41d7befb9")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_RSTN"
+		(at 539.75 369.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df2f0401-4ec1-4308-8cbd-ec8faae640d8")
+	)
+	(label "+3V3"
+		(at 539.75 377.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f523dc81-6b53-4d6d-9c41-ca7fc12d3f79")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d963a91b-6a12-4072-8cb0-4b19367fbd38")
+		(property "Reference" "R71"
+			(at 542.29 389.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470 Ω"
+			(at 542.29 392.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "In series on ALOUT (21), figure 3"
+			(at 539.75 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0805FT470R"
+			(at 539.75 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc4b58f5-220d-4b6d-8f47-7d3266f30901")
+		)
+		(pin "2"
+			(uuid "879f2927-c4e5-4a8c-9379-2d7693b3ac0e")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_AUD_L"
+		(at 539.75 387.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0d8d68a-ea3f-4380-8977-b540c20e313d")
+	)
+	(label "HD_AUD_L"
+		(at 539.75 394.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7aadbf8-0955-4344-8678-e02c84820965")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 408.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aef03c1-0cab-4b3f-89b7-0519c9a9fbd2")
+		(property "Reference" "R72"
+			(at 542.29 407.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470 Ω"
+			(at 542.29 410.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "In series on AROUT (18), figure 3"
+			(at 539.75 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0805FT470R"
+			(at 539.75 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dffbafd1-e3a4-4e66-b4cf-4d76cea2f8d7")
+		)
+		(pin "2"
+			(uuid "7ae2e296-8190-4d97-8653-9c8822ed2265")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_AUD_R"
+		(at 539.75 405.13 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b25b2fe-371a-406a-8089-8038cb56ca19")
+	)
+	(label "HD_AUD_R"
+		(at 539.75 412.75 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0054aa36-5c52-4015-ab82-cfe925eb3dae")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 426.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "3348da1b-7894-48ff-a4c6-b23694e96771")
+		(property "Reference" "R73"
+			(at 542.29 425.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 542.29 427.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NOT FITTED: RXDDCSDA (45) to the HDMI DDC. U6 is the only EDID responder"
+			(at 539.75 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 539.75 426.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dd3b7b2-b167-41fc-9183-311a810f3861")
+		)
+		(pin "2"
+			(uuid "98eea0da-1014-45a3-9db0-213583e1765a")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_RXSDA"
+		(at 539.75 422.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f3f0fb5-4ee3-4f02-9d6e-97c6b91e1b9d")
+	)
+	(label "HDMI_SDA"
+		(at 539.75 430.53 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1cb5cb9-3c9a-4b62-b251-d7eea5d6d185")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 444.50 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f5a48d26-2962-47cb-8f23-f7a2db50443a")
+		(property "Reference" "R74"
+			(at 542.29 443.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 542.29 445.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 444.50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 444.50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NOT FITTED: RXDDCSCL (46) to the HDMI DDC. U6 is the only EDID responder"
+			(at 539.75 444.50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805JR-070RL"
+			(at 539.75 444.50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd70f197-b1b1-415a-bc3b-8b827e8e2ba0")
+		)
+		(pin "2"
+			(uuid "ac182c56-72a3-4785-937b-d8a5df7cdb72")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_RXSCL"
+		(at 539.75 440.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f36f7cf-d134-4383-9ecb-9d6a1ba92de1")
+	)
+	(label "HDMI_SCL"
+		(at 539.75 448.31 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f039bc9-3b70-49b0-af63-956653d62236")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 600.71 320.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2ab9532-591a-436b-8102-d6fc2fe700d7")
+		(property "Reference" "C49"
+			(at 603.25 318.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 603.25 321.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 600.71 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "VMID (25) to ground, figure 3"
+			(at 600.71 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 600.71 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7775f1b-86f5-45cb-9e39-052ccda6ecff")
+		)
+		(pin "2"
+			(uuid "7378e25a-76d3-4fdd-8cf6-0612b0639d59")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_VMID"
+		(at 600.71 316.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68c57c88-7d61-4ea9-b073-81de1f2d3790")
+	)
+	(label "GND"
+		(at 600.71 323.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bb52ae8-f5a1-4472-b9d0-24970ebe8706")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 600.71 337.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "17314e51-1882-4165-b029-a6d866764126")
+		(property "Reference" "C50"
+			(at 603.25 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 603.25 339.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 600.71 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NOT FITTED: filter on RSTN (15); an addition, not in the datasheet circuit"
+			(at 600.71 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 600.71 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61cabde0-6c5f-47a1-b95d-980b8ad96e6e")
+		)
+		(pin "2"
+			(uuid "20be948f-f7e2-41ef-934f-884830b597cb")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "MS_RSTN"
+		(at 600.71 334.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98396d57-9c3d-4415-bbae-ba9cc511bffd")
+	)
+	(label "GND"
+		(at 600.71 341.63 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a5f2d96-dd38-43ad-b51d-8abc88b58c08")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 600.71 355.60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37394b59-ead9-4419-a85c-d3bbb6c55799")
+		(property "Reference" "C51"
+			(at 603.25 354.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 603.25 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 600.71 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3 V, 1 of the 2 in figure 3 (DVDD33 / AVDD33)"
+			(at 600.71 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 600.71 355.60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74d08b22-4353-409a-909f-43b4efc51afa")
+		)
+		(pin "2"
+			(uuid "918ab046-7d72-48da-93dd-ffb540470d91")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "+3V3"
+		(at 600.71 351.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44fc7ff6-d489-4ae0-996f-1b2caeb698eb")
+	)
+	(label "GND"
+		(at 600.71 359.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb3ee6e7-3fbf-4ec1-8c75-530eb4397579")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 600.71 373.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c29a0c32-7822-4531-893e-ad51c7992b56")
+		(property "Reference" "C52"
+			(at 603.25 372.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 603.25 374.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 600.71 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.3 V, 2 of the 2 in figure 3 (V33IN)"
+			(at 600.71 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 600.71 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c885c429-31ec-4f87-a877-ae3b182923b2")
+		)
+		(pin "2"
+			(uuid "f31b2af9-ec65-4df4-b39c-9777ffddcd32")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "+3V3"
+		(at 600.71 369.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6574d5be-a139-45fb-b516-97a1a6b1df0f")
+	)
+	(label "GND"
+		(at 600.71 377.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52014a46-70ce-4b4e-9736-48f0872133c9")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 600.71 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3bc647d-77ca-4a68-83d1-7f1406229fe5")
+		(property "Reference" "C53"
+			(at 603.25 389.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 603.25 392.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 600.71 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.2 V: the only one in figure 3, at the FB node"
+			(at 600.71 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 600.71 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52b8ee05-3d79-4d14-b268-2530de65a494")
+		)
+		(pin "2"
+			(uuid "7706d835-9bc0-450a-89c2-8be44fc0ddbf")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "+1V2"
+		(at 600.71 387.35 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2b80888-6627-4024-a3cf-01e56d85cbb8")
+	)
+	(label "GND"
+		(at 600.71 394.97 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9b9b893-9849-426e-9fd7-bfe050df2103")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 462.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed8ebf7c-da60-4679-89f6-ddea67d8af50")
+		(property "Reference" "R75"
+			(at 542.29 461.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75 Ω"
+			(at 542.29 463.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ROUT (33) to ground, figure 3. With R48-R50 fitted (JP5-JP7) the DAC sees 37.5 Ω (measured on an evaluation board)"
+			(at 539.75 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0775RL"
+			(at 539.75 462.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36b3ab98-9f78-4993-b505-22537af54027")
+		)
+		(pin "2"
+			(uuid "7775384c-d0c7-4b74-8843-a29cfc9e8186")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "HD_R"
+		(at 539.75 458.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bca8971a-e7b0-49d9-9a3d-892d714a1c21")
+	)
+	(label "GND"
+		(at 539.75 466.09 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3531ab8-12e8-4e83-aa3a-e37597f7f4f0")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 480.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f552d73c-ea50-4e9b-b8c2-b40b02d6c5a8")
+		(property "Reference" "R76"
+			(at 542.29 478.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75 Ω"
+			(at 542.29 481.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GOUT (32) to ground, figure 3. With R48-R50 fitted (JP5-JP7) the DAC sees 37.5 Ω (measured on an evaluation board)"
+			(at 539.75 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0775RL"
+			(at 539.75 480.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "786926d3-82f3-4280-951a-d9264ef8eeeb")
+		)
+		(pin "2"
+			(uuid "f6188498-919b-4384-8bc6-3e1ac003df2e")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "HD_G"
+		(at 539.75 476.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "720b5940-7729-4131-90d6-aae8dca7e375")
+	)
+	(label "GND"
+		(at 539.75 483.87 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c08ee93a-6d96-4e92-8035-2d3a3a06d9b1")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 539.75 497.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "561503b9-3c64-440e-bb94-0edcf2fd0fbb")
+		(property "Reference" "R77"
+			(at 542.29 496.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75 Ω"
+			(at 542.29 499.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 539.75 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BOUT (31) to ground, figure 3. With R48-R50 fitted (JP5-JP7) the DAC sees 37.5 Ω (measured on an evaluation board)"
+			(at 539.75 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0775RL"
+			(at 539.75 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0790332-91e7-40fc-83be-dfe1f785440b")
+		)
+		(pin "2"
+			(uuid "5c5e574f-e562-408a-a2d0-0509a6c49484")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "HD_B"
+		(at 539.75 494.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f61a95-9599-4a49-9f64-1d063e59f013")
+	)
+	(label "GND"
+		(at 539.75 501.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c62ae61-cf1d-454a-8ef9-d76cef763801")
+	)
 )
