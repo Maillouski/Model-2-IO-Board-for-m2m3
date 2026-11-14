@@ -20,7 +20,7 @@ JLCPCB makes the board and solders 124 SMD parts. You solder the through-hole pa
   0.45 / 0.20 mm, right at the size JLCPCB surcharges: confirm it on the quote.
   design uses 0.2 mm minimum tracks with 0.2 mm clearance, 0.7 / 0.3 mm and 0.8 / 0.4 mm vias and 0.8 mm minimum component
   holes, all within JLCPCB's standard rules.
-  - **Via-in-pad:** the exposed pad of U9 has 16 vias. Under Via Covering, choose **Epoxy Filled & Capped** (not "Plugged":
+  - **Via-in-pad:** the exposed pad of U9 has 9 vias. Under Via Covering, choose **Epoxy Filled & Capped** (not "Plugged":
     ink plugging does not cover holes inside a pad) so solder does not wick through them. On 2026-10-16 it was offered for 2-layer
     boards and added about 62 USD to 5 boards. Without that option, put less paste on that pad (U9 is placed by JLCPCB, so
     ask for it in the order notes).

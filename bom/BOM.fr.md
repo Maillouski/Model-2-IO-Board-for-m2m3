@@ -89,7 +89,7 @@ Pas d'adaptateur HDMI → VGA externe : U9 fait la conversion sur la carte.
 DigiKey et Mouser ne listent pas le MS9292. LCSC le vend sous la référence **C2874140** (pièce « Extended » de JLCPCB, environ 1,20 USD ; 91 en stock le
 2026-11-14, 101 le 2026-10-26) : JLCPCB peut donc le souder pour vous, il est dans la BOM et le CPL JLCPCB.
 
-U9 est un QFN à pastille centrale, au pas de 0,4 mm. Sa pastille centrale a 16 vias vers le plan de masse ; demander à JLCPCB des vias « Epoxy Filled &
+U9 est un QFN à pastille centrale, au pas de 0,4 mm. Sa pastille centrale a 9 vias vers le plan de masse ; demander à JLCPCB des vias « Epoxy Filled &
 Capped » (pas « Plugged ») à la commande du PCB, ou réduire la pâte sur cette pastille, sinon la brasure peut fuir par les trous.
 
 ## Coût

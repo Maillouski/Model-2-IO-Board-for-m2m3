@@ -88,7 +88,7 @@ No external HDMI → VGA adapter is needed: U9 does the conversion on the board.
 DigiKey and Mouser do not list the MS9292. LCSC sells it as **C2874140** (JLCPCB "Extended" part, about 1.20 USD; 91 in stock on
 2026-11-14, 101 on 2026-10-26), so JLCPCB can solder it for you: it is in the JLCPCB BOM and CPL.
 
-U9 is a QFN with an exposed pad and a 0.4 mm pitch. Its exposed pad has 16 vias to the ground plane; ask JLCPCB for "Epoxy Filled &
+U9 is a QFN with an exposed pad and a 0.4 mm pitch. Its exposed pad has 9 vias to the ground plane; ask JLCPCB for "Epoxy Filled &
 Capped" vias (not "Plugged") when you order the PCB, or reduce the paste on that pad, otherwise solder can wick through the holes.
 
 ## Cost

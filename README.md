@@ -137,7 +137,7 @@ Board: 2 layers, 180 × 190 mm. Gerbers come from the PCB's own plot settings (K
   evaluation board, not on this board. Its behaviour with the 24 kHz mode of the arcade monitor on this board is not verified,
   and the HDMI pairs run on a 2-layer board without controlled impedance. V1 is the only board that has been ordered.
 - **U9's exposed pad is tied to ground**, which the datasheet does not state; check continuity (pad to pin 17) on the first chips. The pad
-  has 16 vias: order "Epoxy Filled & Capped" vias or reduce the paste.
+  has 9 vias: order "Epoxy Filled & Capped" vias or reduce the paste.
 - **Fine vias and tracks:** the HDMI block uses 0.15 mm tracks and vias down to 0.45 / 0.20 mm (27 vias are 0.45 / 0.20 mm,
   right at the size JLCPCB surcharges); the rest of the board keeps 0.2 mm tracks and 0.6 / 0.3 mm vias. Confirm with the fabricator's quote.
 - **CN1 and CN2** are plain 3M four-wall headers, without ejector latches.

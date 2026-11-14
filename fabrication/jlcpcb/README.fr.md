@@ -20,7 +20,7 @@ JLCPCB fabrique la carte et soude 124 composants CMS. Vous soudez vous-même les
   0,45 / 0,20 mm, pile à la taille que JLCPCB surtaxe : à confirmer au devis.
   design utilise des pistes de 0,2 mm au minimum avec 0,2 mm d'isolement, des vias de 0,7 / 0,3 mm et 0,8 / 0,4 mm et des trous
   de composants de 0,8 mm au minimum : tout est dans les règles standard de JLCPCB.
-  - **Via-in-pad :** la pastille centrale de U9 porte 16 vias. Sous Via Covering, choisissez **Epoxy Filled & Capped** (pas « Plugged » :
+  - **Via-in-pad :** la pastille centrale de U9 porte 9 vias. Sous Via Covering, choisissez **Epoxy Filled & Capped** (pas « Plugged » :
     le bouchage à l'encre ne couvre pas les trous situés dans une pastille) pour que la brasure ne fuie pas par les trous. Le
     2026-10-16, l'option était proposée en 2 couches et ajoutait environ 62 $ US pour 5 cartes. Sans cette option, mettez moins de pâte sur cette pastille (U9 est
     posé par JLCPCB : demandez-le dans les notes de commande).

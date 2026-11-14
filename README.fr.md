@@ -141,7 +141,7 @@ Carte : 2 couches, 180 × 190 mm. Les Gerbers sortent des réglages de tracé en
   carte d'évaluation du MS9292, pas sur cette carte. Son comportement avec le mode 24 kHz du moniteur arcade, sur cette carte, n'est pas vérifié,
   et les paires HDMI passent sur une carte 2 couches sans impédance contrôlée. La V1 est la seule carte commandée.
 - **La pastille centrale de U9 est reliée à la masse**, ce que la fiche n'écrit pas ; vérifier la continuité (pastille vers broche 17) sur les premières puces. La pastille
-  a 16 vias : commander des vias « Epoxy Filled & Capped » ou réduire la pâte.
+  a 9 vias : commander des vias « Epoxy Filled & Capped » ou réduire la pâte.
 - **Vias et pistes fins :** le bloc HDMI utilise des pistes de 0,15 mm et des vias jusqu'à 0,45 / 0,20 mm (27 vias font 0,45 / 0,20 mm, pile à la
   taille que JLCPCB surtaxe) ; le reste de la carte garde des pistes de 0,2 mm et des vias de 0,6 / 0,3 mm. À confirmer au devis du fabricant.
 - **CN1 et CN2** sont des embases 3M simples à quatre murs, sans leviers d'éjection.
