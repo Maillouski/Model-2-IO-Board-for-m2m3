@@ -11,9 +11,9 @@ feedback) and the original arcade monitor.
 > **Status: prototype.** The design passes DRC and ERC, but no board has been built or tested yet. Read
 > [Open points](#open-points) before you order.
 
-**Version: V5** (2026-11-14). V5 replaces the HDMI → VGA converter of V3 (CS5213, U4) with an **MS9292** (U9), adds a 3.3 V
+**Version: V5.1** (2026-11-15). V5.1 adds a USB-A socket (J19) that carries only the cabinet's 5 V and ground (no data lines), for example to power a Raspberry Pi, and new silkscreen notes. V5 (kept under the tag [`v5`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v5)) replaces the HDMI → VGA converter of V3 (CS5213, U4) with an **MS9292** (U9), adds a 3.3 V
 regulator for it (U10), and adds two audio connectors (J17, J18). V3 added the [HDMI input](#hdmi-input), a stereo audio output
-and a [composite sync](#composite-sync) that no longer depends on the polarity of H and V. The previous state (V3.2) is kept under the tag
+and a [composite sync](#composite-sync) that no longer depends on the polarity of H and V. The state before V5 (V3.2) is kept under the tag
 [`v3.2`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v3.2), V2 (screen jumper JP8) under the tag [`v2`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v2), and V1,
 the first board, ordered from JLCPCB on 2026-10-13, under the tag [`v1`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v1).
 
@@ -33,6 +33,7 @@ everything the original board used to drive:
   (negative, whatever the H/V polarity). A small switchable video amplifier lifts the signal to the level the tube expects.
 - **Sound** — the audio carried by the HDMI input comes out on two RCA jacks (J16). A separate 3-pin input (J17) is passed straight
   through to a 4-pin output (J18) for the cabinet's preamp.
+- **USB-A 5 V (J19)** — a USB-A socket wired to the cabinet's 5 V (+5V_BORNE) and ground only; D+ and D− are left unconnected, so it supplies power and no data. It is meant to power a small host such as a Raspberry Pi from the cabinet. Nothing protects it (no fuse). The silkscreen reminds you to set the cabinet's 5 V rail to 5.10 V.
 
 A few practical details make bring-up easier: TEST and SERVICE buttons right on the board, a power LED, test points for each
 supply, and a jumper (JP1) to choose whether the drive board logic runs from the Mega's 5 V or from the cabinet's.
@@ -45,7 +46,7 @@ supply, and a jumper (JP1) to choose whether the drive board logic runs from the
 | Arcade RGB | OFF | OFF |
 
 The same table is printed on the board. With the HDMI input, use the first row: U9 is the same kind of chip as the one inside an HDMI-to-VGA
-adapter (V5 has not been built yet, see [Open points](#open-points)).
+adapter (V5.1 has not been built yet, see [Open points](#open-points)).
 
 ## Composite sync
 
@@ -133,9 +134,10 @@ Board: 2 layers, 180 × 190 mm. Gerbers come from the PCB's own plot settings (K
 
 ## Open points
 
-- **V5 has not been built.** The MS9292 circuit follows the maker's reference design; the video levels were measured on an MS9292
+- **V5.1 has not been built.** The MS9292 circuit follows the maker's reference design; the video levels were measured on an MS9292
   evaluation board, not on this board. Its behaviour with the 24 kHz mode of the arcade monitor on this board is not verified,
   and the HDMI pairs run on a 2-layer board without controlled impedance. V1 is the only board that has been ordered.
+- **J19 (USB-A 5 V) is not verified under load.** The 5 V track that feeds it is 3 mm wide on most of its run, but the current it can deliver, the voltage drop and the need for a fuse have not been measured. The part is a Molex 67643-type USB-A socket (footprint and 3D model from the KiCad library); the exact part number is not confirmed, and it is not in the JLCPCB assembly files (solder it by hand).
 - **U9's exposed pad is tied to ground**, which the datasheet does not state; check continuity (pad to pin 17) on the first chips. The pad
   has 9 vias: order "Epoxy Filled & Capped" vias or reduce the paste.
 - **Fine vias and tracks:** the HDMI block uses 0.15 mm tracks and vias down to 0.45 / 0.20 mm (27 vias are 0.45 / 0.20 mm,

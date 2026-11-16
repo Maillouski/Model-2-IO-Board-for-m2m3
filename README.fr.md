@@ -11,9 +11,9 @@ d'origine (retour de force) et moniteur arcade d'origine.
 > **État : prototype.** Le design passe la DRC et l'ERC, mais aucune carte n'a encore été fabriquée ni testée. Lire les
 > [points ouverts](#points-ouverts) avant de commander.
 
-**Version : V5** (2026-11-14). La V5 remplace le convertisseur HDMI → VGA de la V3 (CS5213, U4) par un **MS9292** (U9), lui ajoute un régulateur
+**Version : V5.1** (2026-11-15). La V5.1 ajoute une prise USB-A (J19) qui ne porte que le 5 V de la borne et la masse (pas de lignes de données), par exemple pour alimenter un Raspberry Pi, et de nouvelles notes de sérigraphie. La V5 (gardée sous l'étiquette [`v5`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v5)) remplace le convertisseur HDMI → VGA de la V3 (CS5213, U4) par un **MS9292** (U9), lui ajoute un régulateur
 3,3 V (U10) et ajoute deux connecteurs audio (J17, J18). La V3 avait ajouté l'[entrée HDMI](#entrée-hdmi), une sortie audio stéréo
-et une [synchro composite](#synchro-composite) qui ne dépend plus de la polarité de H et V. L'état précédent (V3.2) est gardé sous l'étiquette
+et une [synchro composite](#synchro-composite) qui ne dépend plus de la polarité de H et V. L'état avant la V5 (V3.2) est gardé sous l'étiquette
 [`v3.2`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v3.2), la V2 (cavalier d'écran JP8) sous l'étiquette [`v2`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v2), et la V1, première carte, commandée chez JLCPCB le
 2026-10-13, sous l'étiquette [`v1`](https://github.com/Maillouski/Model-2-IO-Board-for-m2m3/tree/v1).
 
@@ -35,6 +35,7 @@ d'origine pilotait :
   carte (négative, quelle que soit la polarité de H et V). Un petit ampli vidéo, activable par cavaliers, remonte le signal au niveau qu'attend le tube.
 - **Son** — l'audio transporté par l'entrée HDMI sort sur deux prises RCA (J16). Une entrée séparée à 3 broches (J17) est reprise
   telle quelle sur une sortie à 4 broches (J18) vers le préampli de la borne.
+- **USB-A 5 V (J19)** — une prise USB-A reliée seulement au 5 V de la borne (+5V_BORNE) et à la masse ; D+ et D− ne sont pas connectés : elle fournit de l'alimentation, pas de données. Elle sert à alimenter un petit hôte comme un Raspberry Pi à partir de la borne. Rien ne la protège (pas de fusible). La sérigraphie rappelle de régler le rail 5 V de la borne à 5,10 V.
 
 Quelques détails pratiques facilitent la mise en route : boutons TEST et SERVICE directement sur la carte, DEL d'alimentation,
 points de test pour chaque alimentation, et un cavalier (JP1) pour choisir si la logique de la drive board est alimentée par le
@@ -48,7 +49,7 @@ points de test pour chaque alimentation, et un cavalier (JP1) pour choisir si la
 | RGB arcade | OFF | OFF |
 
 Le même tableau est imprimé sur la carte (en anglais). Avec l'entrée HDMI, prendre la première ligne : U9 est le même genre de puce que celle d'un adaptateur
-HDMI → VGA (la V5 n'a pas encore été fabriquée, voir les [points ouverts](#points-ouverts)).
+HDMI → VGA (la V5.1 n'a pas encore été fabriquée, voir les [points ouverts](#points-ouverts)).
 
 ## Synchro composite
 
@@ -137,9 +138,10 @@ Carte : 2 couches, 180 × 190 mm. Les Gerbers sortent des réglages de tracé en
 
 ## Points ouverts
 
-- **La V5 n'a pas été fabriquée.** Le circuit du MS9292 suit le schéma de référence du fabricant ; les niveaux vidéo ont été mesurés sur une
+- **La V5.1 n'a pas été fabriquée.** Le circuit du MS9292 suit le schéma de référence du fabricant ; les niveaux vidéo ont été mesurés sur une
   carte d'évaluation du MS9292, pas sur cette carte. Son comportement avec le mode 24 kHz du moniteur arcade, sur cette carte, n'est pas vérifié,
   et les paires HDMI passent sur une carte 2 couches sans impédance contrôlée. La V1 est la seule carte commandée.
+- **J19 (USB-A 5 V) n'est pas vérifiée en charge.** La piste de 5 V qui l'alimente fait 3 mm de large sur l'essentiel de son parcours, mais le courant qu'elle peut fournir, la chute de tension et le besoin d'un fusible n'ont pas été mesurés. La pièce est une prise USB-A de type Molex 67643 (empreinte et modèle 3D de la bibliothèque KiCad) ; la référence exacte n'est pas confirmée, et elle n'est pas dans les fichiers d'assemblage JLCPCB (à souder à la main).
 - **La pastille centrale de U9 est reliée à la masse**, ce que la fiche n'écrit pas ; vérifier la continuité (pastille vers broche 17) sur les premières puces. La pastille
   a 9 vias : commander des vias « Epoxy Filled & Capped » ou réduire la pâte.
 - **Vias et pistes fins :** le bloc HDMI utilise des pistes de 0,15 mm et des vias jusqu'à 0,45 / 0,20 mm (27 vias font 0,45 / 0,20 mm, pile à la

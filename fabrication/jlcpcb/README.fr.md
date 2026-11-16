@@ -85,8 +85,8 @@ Les quatre lignes ajoutées par la V5 (L1, R69, U9, U10) ont été vérifiées l
 
 ## Pièces à souder vous-même
 
-- **Pièces traversantes :** C17, D1, J1-J14, J16, J17, J18, JP1-JP10, U1, SW1 et SW2, plus les cavaliers SH1-SH10. TP1-TP4 ne sont pas posés. Commandez-les
-  avec la [BOM DigiKey](../../bom/BOM-digikey.csv), sans les lignes CMS (J18 n'y est pas : LCSC C160360).
+- **Pièces traversantes :** C17, D1, J1-J14, J16, J17, J18, J19, JP1-JP10, U1, SW1 et SW2, plus les cavaliers SH1-SH10. TP1-TP4 ne sont pas posés. Commandez-les
+  avec la [BOM DigiKey](../../bom/BOM-digikey.csv), sans les lignes CMS (J18 n'y est pas : LCSC C160360 ; J19, la prise USB-A ajoutée en V5.1, n'y est pas non plus : sa pièce n'est pas encore choisie).
 
 JLCPCB peut aussi souder les pièces traversantes, contre supplément. Pour J16, LCSC a la Lian Xin XDJK-0271-1650 (C7527522),
 qui va dans la même empreinte. LCSC a en stock les embases JST NH de 10 et 12 broches

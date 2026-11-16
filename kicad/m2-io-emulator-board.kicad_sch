@@ -10882,6 +10882,175 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB_A_ALIM_BORNE"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_A_ALIM_BORNE"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_A_ALIM_BORNE_0_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "USB_A_ALIM_BORNE_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.70 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Boutons de la carte (2026-10-09) : SW1 = TEST, SW2 = SERVICE (comme SW6 et SW7 de la carte E/S d'origine), vers la masse ;\nanti-rebond par le conditionneur de l'entrée (4,7 kΩ / 100 nF / 1 kΩ)."
 		(exclude_from_sim no)
@@ -33501,5 +33670,136 @@
 			(justify right bottom)
 		)
 		(uuid "0c62ae61-cf1d-454a-8ef9-d76cef763801")
+	)
+	(symbol
+		(lib_id "USB_A_ALIM_BORNE")
+		(at 962.66 762.00 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38a2dc70-5801-42b9-91d7-ce065ea178fc")
+		(property "Reference" "J19"
+			(at 962.66 759.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB-A 5V BORNE"
+			(at 962.66 779.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+			(at 962.66 762.00 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 962.66 762.00 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Prise USB-A alimentée seulement par le +5 V de la borne (VBUS = +5V_BORNE, GND) ; D+ et D- en l'air"
+			(at 962.66 762.00 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "Molex 67643-3910"
+			(at 962.66 762.00 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e9a82e5-16a2-4df3-8ab6-03f35fb9f908")
+		)
+		(pin "2"
+			(uuid "2b7f8ad2-5a42-4ac1-b10c-66a7a9fc1bcf")
+		)
+		(pin "3"
+			(uuid "54547b10-0d1b-4800-ae69-0d810c3cf16f")
+		)
+		(pin "4"
+			(uuid "0d3e96a4-ac86-4af1-a253-68246e1a8ad1")
+		)
+		(pin "SH"
+			(uuid "9e245e69-a38c-4165-807b-32e482fda7d8")
+		)
+		(instances
+			(project "m2-io-emulator-board"
+				(path "/d44661bf-d01e-4075-8845-9c2310b0d4a5"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "+5V_BORNE"
+		(at 957.58 764.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdeb0d3a-3588-40f2-9e21-889dfd8062e9")
+	)
+	(label "GND"
+		(at 957.58 772.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77709558-dd75-4ff8-9097-496cbb6cb2ca")
+	)
+	(label "GND"
+		(at 957.58 774.70 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c20c48d-3a9f-4afe-ac4e-30076e0dd596")
 	)
 )

@@ -2,8 +2,8 @@
 
 [English](BOM.md) | **Français**
 
-Quantités **par carte**. 174 repères, vérifiés un par un contre le schéma (V5, 2026-11-14) : 164 dans le fichier DigiKey, U9 et J18
-de chez LCSC, et 8 non posés (DNP).
+Quantités **par carte**. 175 repères, vérifiés un par un contre le schéma (V5.1, 2026-11-15) : 164 dans le fichier DigiKey, U9 et J18
+de chez LCSC, J19 pas encore approvisionnée, et 8 non posés (DNP).
 
 **Import DigiKey :** [`BOM-digikey.csv`](BOM-digikey.csv) (Quantity, Digi-Key Part Number, Manufacturer Part Number,
 Manufacturer, Customer Reference). Le charger dans le gestionnaire de BOM de DigiKey ou dans une myList, puis multiplier par le
@@ -39,6 +39,7 @@ quantité 1, sans taxes ni livraison. Prix et stocks changent : revérifier avan
 | 1 | J16 | double prise RCA superposée (rouge / blanche), coudée | Same Sky RCJ-2223 | CP-1435-ND | sortie stéréo (V3) : en haut = gauche, en bas = droite (sur la RCJ-2223, rouge = gauche). Même empreinte : Lian Xin XDJK-0271-1650 (LCSC C7527522), blanche en haut |
 | 1 | J17 | entrée AUDIO, JST PH 3 broches, 2,00 mm | JST B3B-PH-K-S | 455-1705-ND | câble droit depuis la sortie ligne de l'hôte (1 gauche, 2 masse, 3 droite) |
 | 1 | J18 | AUDIO OUT, JST NH 4 broches, 2,5 mm | JST B4P-SHF-1AA | — | pas vérifié chez DigiKey ; LCSC C160360, voir [plus bas](#embases-jst-nh-j3-j4-j5) ; reprend J17 tout droit vers le préampli de la borne |
+| 1 | J19 | prise USB-A, 5 V de la borne seulement (D+ / D− non connectés) | type Molex 67643, selon l'empreinte (référence exacte non confirmée) | — | pas vérifié chez DigiKey ni LCSC ; à souder à la main, absente des fichiers JLCPCB ; pas de fusible |
 | 1 | L1 | inductance de puissance 10 µH, 4 × 4 mm | Bourns SRN4018-100M | SRN4018-100MCT-ND | convertisseur abaisseur 1,2 V de U9 (doit être une inductance de puissance) |
 | 5 | JP1, JP2-JP4, JP10 | barrette 1 × 3 | Würth 61300311121 | 732-5316-ND | JP1 = alim. drive board, JP2-JP4 = ampli vidéo, JP10 = 5 V de la puce HDMI |
 | 5 | JP5-JP9 | barrette 1 × 2 | Würth 61300211121 | 732-5315-ND | JP5-JP7 = terminaison VGA 75 Ω, JP8 = choix d'écran, JP9 = source vidéo |
@@ -95,7 +96,7 @@ Capped » (pas « Plugged ») à la commande du PCB, ou réduire la pâte sur ce
 ## Coût
 
 Pas recalculé pour la V5. L'estimation de la V3.2 était d'environ 77 $ CA par carte en pièces DigiKey à la quantité 1 (2026-10-16), sans l'Arduino
-Mega. La V5 change la liste (U4 sorti ; U9, U10, L1, J17, J18 et quelques résistances entrés) : revérifier le fichier chez DigiKey.
+Mega. La V5 change la liste (U4 sorti ; U9, U10, L1, J17, J18 et quelques résistances entrés ; la V5.1 ajoute J19) : revérifier le fichier chez DigiKey.
 
 ## Embases JST NH (J3, J4, J5)
 

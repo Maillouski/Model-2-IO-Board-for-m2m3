@@ -2,8 +2,8 @@
 
 **English** | [Français](BOM.fr.md)
 
-Quantities are **per board**. 174 references, checked one by one against the schematic (V5, 2026-11-14): 164 in the DigiKey
-file, U9 and J18 from LCSC, and 8 not fitted (DNP).
+Quantities are **per board**. 175 references, checked one by one against the schematic (V5.1, 2026-11-15): 164 in the DigiKey
+file, U9 and J18 from LCSC, J19 not sourced yet, and 8 not fitted (DNP).
 
 **DigiKey import:** [`BOM-digikey.csv`](BOM-digikey.csv) (Quantity, Digi-Key Part Number, Manufacturer Part Number,
 Manufacturer, Customer Reference). Upload it to the DigiKey BOM Manager or a myList, then multiply by the number of boards.
@@ -38,6 +38,7 @@ shipping. Prices and stock change, so check again before you order.
 | 1 | J16 | dual stacked RCA jack (red / white), right angle | Same Sky RCJ-2223 | CP-1435-ND | V3 stereo out: top = left, bottom = right (on the RCJ-2223, red = left). Same footprint: Lian Xin XDJK-0271-1650 (LCSC C7527522), white on top |
 | 1 | J17 | AUDIO input, 3-pin JST PH, 2.00 mm | JST B3B-PH-K-S | 455-1705-ND | straight cable from the host's line output (1 left, 2 ground, 3 right) |
 | 1 | J18 | AUDIO OUT, 4-pin JST NH, 2.5 mm | JST B4P-SHF-1AA | — | not checked at DigiKey; LCSC C160360, see [below](#jst-nh-headers-j3-j4-j5); J17 passed straight through to the cabinet's preamp |
+| 1 | J19 | USB-A socket, 5 V from the cabinet only (D+ / D− unconnected) | Molex 67643-type, per the footprint (exact part not confirmed) | — | not checked at DigiKey or LCSC; hand-soldered, not in the JLCPCB files; no fuse |
 | 1 | L1 | 10 µH power inductor, 4 × 4 mm | Bourns SRN4018-100M | SRN4018-100MCT-ND | 1.2 V buck converter of U9 (must be a power inductor) |
 | 5 | JP1, JP2-JP4, JP10 | 1 × 3 pin header | Würth 61300311121 | 732-5316-ND | JP1 = drive board power, JP2-JP4 = video amp, JP10 = HDMI chip 5 V |
 | 5 | JP5-JP9 | 1 × 2 pin header | Würth 61300211121 | 732-5315-ND | JP5-JP7 = 75 Ω VGA termination, JP8 = screen select, JP9 = video source |
@@ -94,7 +95,7 @@ Capped" vias (not "Plugged") when you order the PCB, or reduce the paste on that
 ## Cost
 
 Not recomputed for V5. The V3.2 estimate was about 77 CAD per board in DigiKey parts at quantity 1 (2026-10-16), without the
-Arduino Mega. V5 changes the parts list (U4 out; U9, U10, L1, J17, J18 and a few resistors in), so check the file at DigiKey.
+Arduino Mega. V5 changes the parts list (U4 out; U9, U10, L1, J17, J18 and a few resistors in; V5.1 adds J19), so check the file at DigiKey.
 
 ## JST NH headers (J3, J4, J5)
 

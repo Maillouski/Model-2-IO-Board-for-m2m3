@@ -81,8 +81,8 @@ quantity. The four rows added by V5 (L1, R69, U9, U10) were checked on 2026-11-1
 
 ## Parts you solder yourself
 
-- **Through-hole parts:** C17, D1, J1-J14, J16, J17, J18, JP1-JP10, U1, SW1 and SW2, plus the SH1-SH10 jumpers. TP1-TP4 are not fitted. Order them with
-  the [DigiKey BOM](../../bom/BOM-digikey.csv), leaving out the SMD lines (J18 is not in that file: LCSC C160360).
+- **Through-hole parts:** C17, D1, J1-J14, J16, J17, J18, J19, JP1-JP10, U1, SW1 and SW2, plus the SH1-SH10 jumpers. TP1-TP4 are not fitted. Order them with
+  the [DigiKey BOM](../../bom/BOM-digikey.csv), leaving out the SMD lines (J18 is not in that file: LCSC C160360; J19, the USB-A socket added in V5.1, is not in it either: its part is not chosen yet).
 
 JLCPCB can also solder through-hole parts, at extra cost. For J16, LCSC stocks the Lian Xin XDJK-0271-1650 (C7527522), which fits
 the same footprint. LCSC stocks the 10-pin and 12-pin JST NH headers (C160365: 3 292 in
